@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{74df2427-66f4-4145-89b1-922b312485b2}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{efb10652-a274-4514-bb59-37d938e37666}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{68835889-b9e0-4dd2-a2db-01ef0148ccc6}</destination>
 		</relationship>
@@ -41,6 +44,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{58753b74-4e1e-48ef-8e11-9244c82c966d}">
+		<relationship name="automationTracks">
+			<destination>{4666f523-5616-4fd8-922f-01c9da56efae}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b6575a1e-fe35-4b35-b949-fef9f611df84}</destination>
 		</relationship>
@@ -75,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b6575a1e-fe35-4b35-b949-fef9f611df84}">
+		<relationship name="automators">
+			<destination>{3697362c-6960-480b-b354-fb251e7f71f6}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{bf2442c8-213f-459a-b688-574e8b441286}</destination>
 		</relationship>
@@ -83,6 +92,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{68835889-b9e0-4dd2-a2db-01ef0148ccc6}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{4666f523-5616-4fd8-922f-01c9da56efae}">
+		<relationship name="automator">
+			<destination>{3697362c-6960-480b-b354-fb251e7f71f6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cffef2ea-e2dc-4769-bbd2-9de0d81dbcee}">
@@ -126,6 +140,11 @@
 		<relationship name="markerTrack">
 			<destination>{16e70a77-71cc-4371-83b3-a0f970c3525a}</destination>
 		</relationship>
+	</object>
+	<object class="Automator" id="{3697362c-6960-480b-b354-fb251e7f71f6}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{bf2442c8-213f-459a-b688-574e8b441286}">
 		<relationship name="effects">

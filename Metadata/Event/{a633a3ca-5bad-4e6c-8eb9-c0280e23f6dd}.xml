@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{74df2427-66f4-4145-89b1-922b312485b2}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{efb10652-a274-4514-bb59-37d938e37666}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{a4e024c0-ebef-49ee-b459-0ae0cbbc7833}</destination>
 		</relationship>
@@ -380,9 +383,6 @@
 		<relationship name="markerTrack">
 			<destination>{706544b2-0c56-4c2f-96e2-350a05267be4}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{5633fd22-b649-4f02-9d2b-7a17c1d6b186}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{0fa24223-2c4b-42cb-b782-f0fccaaf26e1}">
 		<relationship name="effects">
@@ -505,20 +505,6 @@
 		</property>
 		<property name="maximum">
 			<value>2</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{140968ee-ab6a-4b87-82d1-f2158c1d87f7}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{5633fd22-b649-4f02-9d2b-7a17c1d6b186}">
-		<property name="minimum">
-			<value>2</value>
-		</property>
-		<property name="maximum">
-			<value>2</value>
-		</property>
-		<property name="isInverted">
-			<value>true</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{140968ee-ab6a-4b87-82d1-f2158c1d87f7}</destination>
