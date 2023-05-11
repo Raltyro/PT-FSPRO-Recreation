@@ -203,7 +203,7 @@
 	</object>
 	<object class="SingleSound" id="{f4a38f02-a08d-480f-a084-f7b5ad15addd}">
 		<property name="start">
-			<value>318.17388081845144</value>
+			<value>135.65217391304347</value>
 		</property>
 		<property name="length">
 			<value>176.01434057971014</value>
@@ -259,11 +259,14 @@
 	</object>
 	<object class="SingleSound" id="{95c6b5f7-2ec3-4961-9e9c-b6507f2776de}">
 		<property name="start">
-			<value>131.08695652173913</value>
+			<value>318.17388081845144</value>
 		</property>
 		<property name="length">
 			<value>169.16897916666667</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{a2a91e62-b95a-492b-ab2e-77d8c552dae4}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{4446283b-766f-450f-8852-f0b0f1b6ce16}</destination>
 		</relationship>
@@ -384,7 +387,7 @@
 			<value>318.17388081845144</value>
 		</property>
 		<property name="length">
-			<value>173.71428571428567</value>
+			<value>169.14285714285717</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{9be644a9-2a5b-43ab-bb2f-eb2a08825e88}</destination>
@@ -445,6 +448,17 @@
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{e7cf56fa-e9e2-44c9-a600-17385e3de933}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{a2a91e62-b95a-492b-ab2e-77d8c552dae4}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{406d512f-c22b-4bda-ad63-6d63a382c33e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cb2217f7-4485-4f42-9d00-0f5e9fcecb87}">

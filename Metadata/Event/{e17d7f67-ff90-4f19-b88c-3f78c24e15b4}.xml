@@ -143,6 +143,9 @@
 		<property name="length">
 			<value>235.18975</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{fbcc5dd6-c6eb-4784-8fa9-94600deec6ca}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{7939f6e3-0d34-44fd-8fdf-a61fd4a2aa08}</destination>
 		</relationship>
@@ -301,6 +304,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{4e90b14b-83ac-4f6a-a2fd-9b334ac90d08}" />
 	<object class="MixerBusFader" id="{3601ce27-91d2-4ec7-8a60-e7fa4178b7b1}" />
+	<object class="ParameterCondition" id="{fbcc5dd6-c6eb-4784-8fa9-94600deec6ca}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{406d512f-c22b-4bda-ad63-6d63a382c33e}</destination>
+		</relationship>
+	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{54b0b8a3-a582-4198-8ea8-ed971a8c3bf0}">
 		<relationship name="startPoint">
 			<destination>{be173236-b3b6-473c-ab8b-7c33d835e6a4}</destination>
