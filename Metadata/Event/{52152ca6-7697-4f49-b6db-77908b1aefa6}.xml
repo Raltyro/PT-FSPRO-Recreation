@@ -46,9 +46,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{b5e280ba-d6f4-4fc3-8f6c-36be021897dd}">
-		<relationship name="automationTracks">
-			<destination>{42e46fb9-8688-4ab8-8d71-0ffd82d35045}</destination>
-		</relationship>
 		<relationship name="modules">
 			<destination>{20b20f86-a5a0-4d65-b63b-ed56c475e586}</destination>
 			<destination>{27e939bf-0da3-4587-9434-a8477ccb692e}</destination>
@@ -170,11 +167,6 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{d8df45a0-aef9-46ee-8e4e-ba5248eaba51}</destination>
-		</relationship>
-	</object>
-	<object class="AutomationTrack" id="{42e46fb9-8688-4ab8-8d71-0ffd82d35045}">
-		<relationship name="automator">
-			<destination>{1e746bc0-a27d-49a9-a6ef-7b31d23d1178}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{20b20f86-a5a0-4d65-b63b-ed56c475e586}">
@@ -1586,6 +1578,9 @@
 		<relationship name="parameter">
 			<destination>{2064ffbc-5a64-4178-b734-680f3bd753db}</destination>
 		</relationship>
+		<relationship name="automationPoints">
+			<destination>{caff32d5-4e85-48a4-8ea4-97e77f95da68}</destination>
+		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{23d5e875-e4a0-43a2-8afc-39b3f3498769}">
 		<relationship name="parameter">
@@ -1596,12 +1591,20 @@
 			<destination>{fa2032e5-c44f-4eb2-b540-456e7672169b}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationPoint" id="{caff32d5-4e85-48a4-8ea4-97e77f95da68}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>2000</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{5fa30352-256c-437c-aafc-7c61c7a11e1f}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>1600</value>
+			<value>5079.99902</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fa2032e5-c44f-4eb2-b540-456e7672169b}">
@@ -1609,7 +1612,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>5079.99902</value>
 		</property>
 	</object>
 </objects>
