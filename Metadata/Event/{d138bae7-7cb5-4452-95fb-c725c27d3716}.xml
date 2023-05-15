@@ -231,6 +231,9 @@
 		<relationship name="markerTrack">
 			<destination>{ae64c30c-e685-483e-9652-4406773b2c42}</destination>
 		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{8e6c233e-904e-4bc6-b82f-d34b3f3b4ed1}</destination>
+		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{67e19132-c855-4f83-aed4-4718164ca1b7}</destination>
 		</relationship>
@@ -356,10 +359,21 @@
 	</object>
 	<object class="ParameterCondition" id="{7637dcb1-1dfc-4001-a594-16810e372097}">
 		<property name="minimum">
-			<value>3</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{140968ee-ab6a-4b87-82d1-f2158c1d87f7}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{8e6c233e-904e-4bc6-b82f-d34b3f3b4ed1}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{140968ee-ab6a-4b87-82d1-f2158c1d87f7}</destination>
