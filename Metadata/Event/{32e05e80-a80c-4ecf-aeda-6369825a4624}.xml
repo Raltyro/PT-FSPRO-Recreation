@@ -126,6 +126,9 @@
 		<property name="timelockedOffset">
 			<value>0.064655172413793108</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{ed902b13-ad31-453a-a285-b08ee985d7f7}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{f0aad4fd-e471-4390-8ec7-d3219fb3db10}</destination>
 		</relationship>
@@ -192,6 +195,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{bb233022-33da-4dd7-a313-4beb979b6661}" />
 	<object class="MixerBusFader" id="{38f4cd9f-2a3c-484f-8150-de76c6d3f7ad}" />
+	<object class="ParameterCondition" id="{ed902b13-ad31-453a-a285-b08ee985d7f7}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{406d512f-c22b-4bda-ad63-6d63a382c33e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{8eae5cb8-33ce-40cf-896b-6998a263f55d}">
 		<relationship name="effects">
 			<destination>{7216a033-f9b2-47d9-a050-b87d19036cc6}</destination>

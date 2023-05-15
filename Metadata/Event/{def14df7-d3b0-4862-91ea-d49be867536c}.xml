@@ -227,6 +227,9 @@
 		<property name="length">
 			<value>160</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{c99f01fb-63b7-495f-b707-04c7ab096c6a}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{06541ca1-7b40-46cc-8230-8ed3aa729036}</destination>
 		</relationship>
@@ -491,6 +494,17 @@
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{7ad62713-2639-4a4a-bcb3-cfc9feb937b0}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{c99f01fb-63b7-495f-b707-04c7ab096c6a}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{406d512f-c22b-4bda-ad63-6d63a382c33e}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionDestinationFadeInCurve" id="{849665da-99e9-489a-b38f-6d79b70edd46}">
