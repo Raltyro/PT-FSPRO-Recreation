@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{1cd1dfac-c589-458d-a652-6e4abf8bfc08}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{efb10652-a274-4514-bb59-37d938e37666}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{17655126-e1c8-4467-9707-2d187709ac25}</destination>
 		</relationship>
@@ -53,7 +56,7 @@
 			<destination>{8b0cb0d2-a023-42ac-bf29-642fbb24a5d2}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c46ef0bb-4b4e-4168-8ede-ecfed42b448a}</destination>
+			<destination>{475894c5-afdb-4b8d-a3a2-92168b012f0b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3dba87b3-2960-4659-9b75-159c9e2e459b}" />
@@ -64,6 +67,7 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{24642694-5cb7-4918-8fd3-d789ae81cacf}</destination>
+			<destination>{23446c18-09c2-4038-a0fb-075813c8a221}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{056c43bd-d935-498f-9e09-11101a4c83c1}">
@@ -79,7 +83,10 @@
 	</object>
 	<object class="SingleSound" id="{1445bb22-829b-4379-b797-2b4850595aeb}">
 		<property name="length">
-			<value>73.534687500000004</value>
+			<value>73.500840076164664</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.033847423835340978</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{d99ebae5-fe8f-4659-ac67-21cff0c6877f}</destination>
@@ -93,10 +100,24 @@
 	<object class="MixerBusPanner" id="{8b0cb0d2-a023-42ac-bf29-642fbb24a5d2}" />
 	<object class="LoopRegion" id="{24642694-5cb7-4918-8fd3-d789ae81cacf}">
 		<property name="position">
-			<value>0.16603733243946461</value>
+			<value>24</value>
 		</property>
 		<property name="length">
-			<value>24</value>
+			<value>36</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{5850eba0-7ae5-4e5e-9a92-21c8e664452b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{72a3908b-99dd-432c-949c-8b69876158d1}</destination>
+		</relationship>
+	</object>
+	<object class="TempoMarker" id="{23446c18-09c2-4038-a0fb-075813c8a221}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="tempo">
+			<value>160</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5850eba0-7ae5-4e5e-9a92-21c8e664452b}</destination>

@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{8eec8c58-aec2-45cc-83ef-f5636179abb6}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{45087c6f-9798-4c04-8152-cdacb05ec815}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{b43fa1df-611c-4e9e-a77f-cdf60596e0de}</destination>
 		</relationship>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{ab95b9cb-adf7-4b35-8b24-5832df9483a7}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{fbe9a1f6-c3f2-4df2-9566-590839085ffa}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{b43fa1df-611c-4e9e-a77f-cdf60596e0de}">
@@ -53,7 +59,7 @@
 			<destination>{0c03222f-703c-42de-8221-c015ed12e45b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c46ef0bb-4b4e-4168-8ede-ecfed42b448a}</destination>
+			<destination>{1aa1db3b-f090-4e19-ab68-bd8089cb2ecf}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{62e71822-7b6c-41e1-bd3b-5f4cb57dbe83}" />
@@ -69,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5db259a3-be94-48b7-b4b6-4e0286ba3d33}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4e2e3900-722f-4937-83a5-8ed437633075}</destination>
 		</relationship>

@@ -78,6 +78,7 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{7d26edb6-714e-45ed-9c78-f69ccf80006b}</destination>
+			<destination>{54548a4b-5e2d-4db5-9d10-11cc96fb79af}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3c22c5ac-c28b-4d7e-9d83-49162c7060ab}">
@@ -104,9 +105,6 @@
 		<property name="timelockedOffset">
 			<value>0.046875</value>
 		</property>
-		<relationship name="triggerConditions">
-			<destination>{8cbbfdd3-f40d-451d-a42f-54598f1f0637}</destination>
-		</relationship>
 		<relationship name="audioFile">
 			<destination>{62259d58-93a5-46dc-8674-a7add841b85c}</destination>
 		</relationship>
@@ -127,10 +125,24 @@
 	</object>
 	<object class="LoopRegion" id="{7d26edb6-714e-45ed-9c78-f69ccf80006b}">
 		<property name="position">
-			<value>5.25</value>
+			<value>5.2554744525547452</value>
 		</property>
 		<property name="length">
-			<value>203.1875</value>
+			<value>203.2116788321168</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c02bb0d7-41e5-4f6c-992a-bb470f08ef0d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{9275f072-c989-488d-ba06-628a4e5b27ff}</destination>
+		</relationship>
+	</object>
+	<object class="TempoMarker" id="{54548a4b-5e2d-4db5-9d10-11cc96fb79af}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="tempo">
+			<value>137</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{c02bb0d7-41e5-4f6c-992a-bb470f08ef0d}</destination>
@@ -146,17 +158,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{a48ca2ca-0a37-451d-9519-9b7ce056af49}" />
 	<object class="MixerBusFader" id="{aabc2b7b-7c01-4bf1-828c-86eca3a8fe78}" />
-	<object class="ParameterCondition" id="{8cbbfdd3-f40d-451d-a42f-54598f1f0637}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{406d512f-c22b-4bda-ad63-6d63a382c33e}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{6d172a4f-64b3-4c24-81db-4641144a5260}">
 		<relationship name="effects">
 			<destination>{5c7c3780-2226-407c-9822-cdcf60e2db50}</destination>
