@@ -87,7 +87,6 @@
 			<destination>{1726ec4c-9984-46e0-91f3-cc859d8b19e5}</destination>
 			<destination>{3da22b88-79af-403a-a5f9-d23d1c8d2c2b}</destination>
 			<destination>{56f28ffa-0a0d-4bc3-9d44-4a78a682ea54}</destination>
-			<destination>{d78109c6-3b37-4087-be5a-304a4ced43e6}</destination>
 			<destination>{00c55eba-ce02-4336-b240-0978b8e0d21e}</destination>
 		</relationship>
 	</object>
@@ -131,9 +130,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{44151294-8a24-4eb2-84d1-acf5c8145a03}">
-		<property name="volume">
-			<value>-5</value>
-		</property>
 		<property name="name">
 			<value>loop</value>
 		</property>
@@ -223,20 +219,6 @@
 			<destination>{7f898cbc-bef6-40f3-a7e5-4257f8321e22}</destination>
 		</relationship>
 	</object>
-	<object class="NamedMarker" id="{d78109c6-3b37-4087-be5a-304a4ced43e6}">
-		<property name="position">
-			<value>4.7999999999999998</value>
-		</property>
-		<property name="name">
-			<value>start</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{e8e3aeb5-568c-45fe-9ee0-87587668423e}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{2d8866b2-591c-4bdc-8544-fd524d418aac}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionRegion" id="{00c55eba-ce02-4336-b240-0978b8e0d21e}">
 		<property name="position">
 			<value>0</value>
@@ -254,7 +236,7 @@
 			<destination>{2d8866b2-591c-4bdc-8544-fd524d418aac}</destination>
 		</relationship>
 		<relationship name="destination">
-			<destination>{d78109c6-3b37-4087-be5a-304a4ced43e6}</destination>
+			<destination>{56f28ffa-0a0d-4bc3-9d44-4a78a682ea54}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{43bcea15-0eeb-4b8f-82ab-07e652133465}</destination>
@@ -279,7 +261,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>1.9500000476837158</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{140968ee-ab6a-4b87-82d1-f2158c1d87f7}</destination>
@@ -290,7 +272,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>2.9500000476837158</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{140968ee-ab6a-4b87-82d1-f2158c1d87f7}</destination>
@@ -300,7 +282,13 @@
 	<object class="MixerBusFader" id="{75c71ea4-a298-444f-8a9d-2a9fb4def689}" />
 	<object class="ThreeEQEffect" id="{dad6719d-ce7f-4670-8135-15665d360bd5}">
 		<property name="highGain">
-			<value>-80</value>
+			<value>-20</value>
+		</property>
+		<property name="highCrossover">
+			<value>800</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
 		</property>
 	</object>
 </objects>
