@@ -45,8 +45,6 @@
 	</object>
 	<object class="MasterTrack" id="{9301bc3b-456f-4c6a-91cb-1c2a06ba77b1}">
 		<relationship name="modules">
-			<destination>{4d8f43bd-820d-487e-a30c-0dc48eea7a19}</destination>
-			<destination>{86a05005-d9dc-4067-935f-418e8b6817a6}</destination>
 			<destination>{c27fee74-c87d-4a21-86f8-7db6497812c7}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -86,19 +84,6 @@
 			<destination>{bfdda3cc-8375-491d-87d9-9838a907da95}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceSound" id="{4d8f43bd-820d-487e-a30c-0dc48eea7a19}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{86a05005-d9dc-4067-935f-418e8b6817a6}">
-		<property name="start">
-			<value>10.212765957446809</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="SingleSound" id="{c27fee74-c87d-4a21-86f8-7db6497812c7}">
 		<property name="length">
 			<value>71.489354166666672</value>
@@ -118,16 +103,13 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>72</value>
+			<value>71.489354166666672</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{e08b5f5f-6745-4acc-b8ae-804b318fa8bf}</destination>
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{461f9bc9-a4e0-4c4b-9151-490c769c8060}</destination>
-		</relationship>
-		<relationship name="transitionTimeline">
-			<destination>{960d8c14-567a-49f8-99ae-83fbb42c60b0}</destination>
 		</relationship>
 	</object>
 	<object class="TempoMarker" id="{30426172-079a-4058-b12f-58bd3a0b2b9e}">
@@ -151,14 +133,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{e36a7a8c-3dcf-46fb-a8bf-bacc0763e433}" />
 	<object class="MixerBusFader" id="{d8335bb9-2e79-4456-b40f-370ec4fbe907}" />
-	<object class="TransitionTimeline" id="{960d8c14-567a-49f8-99ae-83fbb42c60b0}">
-		<property name="length">
-			<value>10.212765957446809</value>
-		</property>
-		<relationship name="modules">
-			<destination>{4d8f43bd-820d-487e-a30c-0dc48eea7a19}</destination>
-			<destination>{86a05005-d9dc-4067-935f-418e8b6817a6}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{930a4474-7b6b-4d73-87d3-ec847daa2980}" />
 </objects>
