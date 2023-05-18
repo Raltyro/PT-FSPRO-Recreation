@@ -5,10 +5,13 @@
 			<value>pizzahead</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{966feac4-ad57-4e59-9c58-8d8bcc99f5fd}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{addf9d5a-f5f6-40b6-b56a-52132e48ea31}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{a23d0939-2848-472d-9c3e-3935219903ce}</destination>
@@ -119,6 +122,7 @@
 		<relationship name="effects">
 			<destination>{7fcdbf6c-d024-46a4-a2e2-1b39f31eee00}</destination>
 			<destination>{f229f819-f1da-48b8-ba9f-5d06a14c688c}</destination>
+			<destination>{a17f1cdf-fe6f-44a6-8dce-7fc8e12b5f46}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{18ce9fc5-e56b-481b-a824-a6a305711ba8}" />
@@ -143,6 +147,14 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{7d324f37-3152-47e2-99f1-2f2a6c9f599b}</destination>
+		</relationship>
+	</object>
+	<object class="ProxyEffect" id="{a17f1cdf-fe6f-44a6-8dce-7fc8e12b5f46}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1ea2af31-821d-4855-a8b6-a43b783abf7f}">
