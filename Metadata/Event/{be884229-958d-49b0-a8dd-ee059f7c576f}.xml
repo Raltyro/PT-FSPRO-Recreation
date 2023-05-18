@@ -5,7 +5,7 @@
 			<value>peppinoangryscream2</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{966feac4-ad57-4e59-9c58-8d8bcc99f5fd}</destination>
@@ -53,7 +53,7 @@
 			<destination>{31737045-88e6-44b2-8c19-2a5d24e014d4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c46ef0bb-4b4e-4168-8ede-ecfed42b448a}</destination>
+			<destination>{1aa1db3b-f090-4e19-ab68-bd8089cb2ecf}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{bfe00611-6229-4933-ae23-3693b8fd887b}" />
@@ -79,7 +79,7 @@
 			<value>5.2442083333333329</value>
 		</property>
 		<property name="volume">
-			<value>1.5</value>
+			<value>5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{3434255f-4164-4ba6-996c-16005595f7db}</destination>
@@ -94,9 +94,18 @@
 	<object class="MixerBusEffectChain" id="{f5e09e07-31ff-4b3d-86b5-f16a52bb913f}">
 		<relationship name="effects">
 			<destination>{500f360c-5aab-496b-a795-7813ff0de60d}</destination>
+			<destination>{44e7babb-b7e6-4dd7-af23-41355968cf50}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{26c04d6c-a2db-444e-90a7-0efb42a9c9ed}" />
 	<object class="MixerBusFader" id="{cb617482-7a4c-4c77-9935-1c2934ee2423}" />
 	<object class="MixerBusFader" id="{500f360c-5aab-496b-a795-7813ff0de60d}" />
+	<object class="ProxyEffect" id="{44e7babb-b7e6-4dd7-af23-41355968cf50}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
+		</relationship>
+	</object>
 </objects>

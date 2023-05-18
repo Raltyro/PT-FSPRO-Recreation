@@ -5,7 +5,7 @@
 			<value>peppinoangryscream</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{966feac4-ad57-4e59-9c58-8d8bcc99f5fd}</destination>
@@ -55,7 +55,7 @@
 			<destination>{353d4445-9f1c-4ed5-b6ff-dba524dbda9a}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c46ef0bb-4b4e-4168-8ede-ecfed42b448a}</destination>
+			<destination>{1aa1db3b-f090-4e19-ab68-bd8089cb2ecf}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d97f0b57-ee2b-4f21-93a9-75713052c843}" />
@@ -135,6 +135,7 @@
 	<object class="MixerBusEffectChain" id="{b68166a6-fbfb-4ac3-a5ff-925b02f4aca8}">
 		<relationship name="effects">
 			<destination>{65c8f6e1-269b-4507-97b3-5e769066fb02}</destination>
+			<destination>{d599e99d-4d24-4928-97f2-feb1485e3078}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8ffa1171-0b83-44dd-8fb8-5752e5820e34}" />
@@ -198,4 +199,12 @@
 	</object>
 	<object class="MixerBusFader" id="{0c890dd7-9027-4caf-9246-05b8f8bce838}" />
 	<object class="MixerBusFader" id="{65c8f6e1-269b-4507-97b3-5e769066fb02}" />
+	<object class="ProxyEffect" id="{d599e99d-4d24-4928-97f2-feb1485e3078}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
+		</relationship>
+	</object>
 </objects>
