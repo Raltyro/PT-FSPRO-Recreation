@@ -95,7 +95,7 @@
 	</object>
 	<object class="MultiSound" id="{ba27822f-3988-48cf-87ab-35a32028f584}">
 		<relationship name="sounds">
-			<destination>{409d2e30-2dfc-4e1f-b0a6-9c3a845cb549}</destination>
+			<destination>{5ca6e0bc-c7f3-47b6-8dba-1bc0217bb52b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{04df5639-d55a-4802-affb-7484031649ca}">
@@ -124,13 +124,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{130f7d1e-fa2b-4a0c-b057-8f9461a55839}" />
-	<object class="MultiSound" id="{409d2e30-2dfc-4e1f-b0a6-9c3a845cb549}">
-		<relationship name="sounds">
-			<destination>{fdf2d5ea-fb41-48d1-a7ef-57d76990b6f7}</destination>
-			<destination>{22765549-fbeb-4fa0-9f45-5f1fb9068131}</destination>
-		</relationship>
-		<relationship name="playPercentages">
-			<destination>{7b7ef0f4-fbf7-4290-81fb-e596d2b85ad5}</destination>
+	<object class="SingleSound" id="{5ca6e0bc-c7f3-47b6-8dba-1bc0217bb52b}">
+		<relationship name="audioFile">
+			<destination>{f0013a9b-a6fc-490f-b11f-957f8d29e4d8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{83dc306e-b187-4b4b-9069-2140c08b0209}" />
@@ -141,23 +137,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{2464f584-938a-4d3f-b2f0-01c3c0053097}" />
 	<object class="MixerBusFader" id="{90338586-20f2-4fb1-b12f-368547a9699d}" />
-	<object class="SingleSound" id="{fdf2d5ea-fb41-48d1-a7ef-57d76990b6f7}">
-		<relationship name="audioFile">
-			<destination>{f0013a9b-a6fc-490f-b11f-957f8d29e4d8}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{22765549-fbeb-4fa0-9f45-5f1fb9068131}">
-		<relationship name="audioFile">
-			<destination>{e0dee295-2262-44c7-9401-afff41be1c80}</destination>
-		</relationship>
-	</object>
-	<object class="PlayPercentage" id="{7b7ef0f4-fbf7-4290-81fb-e596d2b85ad5}">
-		<property name="percentage">
-			<value>99</value>
-		</property>
-		<relationship name="sound">
-			<destination>{fdf2d5ea-fb41-48d1-a7ef-57d76990b6f7}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{8c736ab8-2c9f-4b51-ad39-033572cc58f3}" />
 </objects>
