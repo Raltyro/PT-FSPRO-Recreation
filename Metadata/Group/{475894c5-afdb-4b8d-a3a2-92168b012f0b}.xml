@@ -29,7 +29,6 @@
 	<object class="MixerBusEffectChain" id="{2dad43a6-9b1d-4296-96d0-cd392992b241}">
 		<relationship name="effects">
 			<destination>{4661f8fa-3480-4468-84d9-299263424acc}</destination>
-			<destination>{7e004d21-6739-42fe-bfdd-b4994bfad908}</destination>
 			<destination>{c0900430-09c4-42c8-adfb-cb3c8e2cb8fa}</destination>
 		</relationship>
 	</object>
@@ -53,29 +52,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{4661f8fa-3480-4468-84d9-299263424acc}" />
-	<object class="MultibandEqEffect" id="{7e004d21-6739-42fe-bfdd-b4994bfad908}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-		<property name="filterTypeA">
-			<value>2</value>
-		</property>
-		<property name="frequencyA">
-			<value>1003.89966</value>
-		</property>
-		<property name="qualityA">
-			<value>0.100000001</value>
-		</property>
-		<property name="gainA">
-			<value>-30</value>
-		</property>
-	</object>
 	<object class="ThreeEQEffect" id="{c0900430-09c4-42c8-adfb-cb3c8e2cb8fa}">
 		<property name="lowCrossover">
 			<value>1000</value>
 		</property>
 		<property name="highCrossover">
-			<value>10</value>
+			<value>22000</value>
 		</property>
 		<relationship name="automators">
 			<destination>{cf7eb21b-cb9e-4ab7-8b32-1ea88a3783d9}</destination>
