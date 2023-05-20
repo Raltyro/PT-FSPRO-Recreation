@@ -111,9 +111,6 @@
 		<property name="timelockedOffset">
 			<value>0.046875</value>
 		</property>
-		<property name="volume">
-			<value>-2</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{b3e01579-196b-4fa3-a77c-882dd539f6a3}</destination>
 		</relationship>
@@ -125,20 +122,23 @@
 	</object>
 	<object class="MixerBusPanner" id="{1af2ec8d-c29e-42d0-8325-55bff09b8788}" />
 	<object class="SingleSound" id="{ea2d657c-b079-4582-b90d-d8a0f4abe6d1}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>4.7999999999999998</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.04928645929546388</value>
 		</property>
-		<property name="volume">
-			<value>-2</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{b3e01579-196b-4fa3-a77c-882dd539f6a3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{44151294-8a24-4eb2-84d1-acf5c8145a03}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>loop</value>
 		</property>
