@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Event" id="{5d199476-6d41-4d7c-a7e3-a3ae5797822e}">
+		<property name="name">
+			<value>slide</value>
+		</property>
+		<property name="outputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{87e441ae-8c1a-415a-a3b9-a5101060c946}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{7b51419e-32dc-4917-8ba6-6be204518497}</destination>
+		</relationship>
+		<relationship name="masterTrack">
+			<destination>{81c7d61b-2693-4091-afaa-7af8b695cb95}</destination>
+		</relationship>
+		<relationship name="mixerInput">
+			<destination>{e20fc100-7589-4060-a7f6-bf4f1d22391c}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{3f2ad06c-4e84-4aba-9b3d-96a40110c32a}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{ae70e62f-0d26-4e98-8af1-7b5690928e4f}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{73f2f775-e478-493c-bf77-3a40e919d7f0}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixer" id="{7b51419e-32dc-4917-8ba6-6be204518497}">
+		<relationship name="masterBus">
+			<destination>{b6184024-a0d6-45fd-be63-d0cb11003ab5}</destination>
+		</relationship>
+	</object>
+	<object class="MasterTrack" id="{81c7d61b-2693-4091-afaa-7af8b695cb95}">
+		<relationship name="mixerGroup">
+			<destination>{b6184024-a0d6-45fd-be63-d0cb11003ab5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerInput" id="{e20fc100-7589-4060-a7f6-bf4f1d22391c}">
+		<relationship name="effectChain">
+			<destination>{e6ad3a54-d3c9-482b-9d16-d93d8fcfcca2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1c6d6214-872c-4c87-b10e-687fde05e850}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c46ef0bb-4b4e-4168-8ede-ecfed42b448a}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{3f2ad06c-4e84-4aba-9b3d-96a40110c32a}" />
+	<object class="MarkerTrack" id="{ae70e62f-0d26-4e98-8af1-7b5690928e4f}" />
+	<object class="Timeline" id="{73f2f775-e478-493c-bf77-3a40e919d7f0}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="EventMixerMaster" id="{b6184024-a0d6-45fd-be63-d0cb11003ab5}">
+		<relationship name="effectChain">
+			<destination>{dbabe8cd-df85-4e7a-b040-68809cba22ce}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{20668387-99bf-4b1d-8ad1-affb1853835e}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{7b51419e-32dc-4917-8ba6-6be204518497}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e6ad3a54-d3c9-482b-9d16-d93d8fcfcca2}">
+		<relationship name="effects">
+			<destination>{ab4110d6-da00-4722-8d73-8ec854ce2193}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1c6d6214-872c-4c87-b10e-687fde05e850}" />
+	<object class="MixerBusEffectChain" id="{dbabe8cd-df85-4e7a-b040-68809cba22ce}">
+		<relationship name="effects">
+			<destination>{cd18d58a-1ba2-4fbb-8a20-8f22156c2ef3}</destination>
+			<destination>{08884bed-6a25-4f4f-b2e8-13c1ef601c15}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{20668387-99bf-4b1d-8ad1-affb1853835e}" />
+	<object class="MixerBusFader" id="{ab4110d6-da00-4722-8d73-8ec854ce2193}" />
+	<object class="MixerBusFader" id="{cd18d58a-1ba2-4fbb-8a20-8f22156c2ef3}" />
+	<object class="SpatialiserEffect" id="{08884bed-6a25-4f4f-b2e8-13c1ef601c15}">
+		<property name="maximumDistance">
+			<value>1600</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>2000</value>
+		</property>
+		<property name="minimumExtent">
+			<value>10</value>
+		</property>
+	</object>
+</objects>
