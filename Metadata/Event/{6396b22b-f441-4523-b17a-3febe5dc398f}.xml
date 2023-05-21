@@ -38,7 +38,7 @@
 			<destination>{e73f12d7-ee48-4815-a094-6520c0979cd9}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{fbe9a1f6-c3f2-4df2-9566-590839085ffa}</destination>
+			<destination>{16de4e46-bce0-4a42-a53f-ebfb0a6d79b0}</destination>
 		</relationship>
 		<relationship name="defaultEvent">
 			<destination>{6c2b7776-4ac9-4273-8930-7c8147898766}</destination>
@@ -86,9 +86,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8c9b8fff-9a20-4401-98dc-31a292e52376}">
-		<property name="volume">
-			<value>-5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{cce18781-8635-475d-9b52-fee0c80bb23f}</destination>
 		</relationship>
@@ -131,6 +128,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{288c47c1-a534-4fe8-a2e1-b18c9eac3396}" />
 	<object class="SingleSound" id="{658cf3de-f802-4ebb-b846-e5777798bdb8}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9d7ff4dd-9426-4b9f-bedf-a00730eb985f}</destination>
 		</relationship>
