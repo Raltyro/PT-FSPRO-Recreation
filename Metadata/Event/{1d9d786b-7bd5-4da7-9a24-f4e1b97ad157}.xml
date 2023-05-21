@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1d9d786b-7bd5-4da7-9a24-f4e1b97ad157}">
+		<property name="note" />
 		<property name="name">
 			<value>freezer</value>
 		</property>
@@ -90,6 +91,7 @@
 			<destination>{89aad0ea-d7e2-4020-ae24-00c10c137c81}</destination>
 			<destination>{c6d290c2-32ce-4d5f-948d-d7542a97f3ff}</destination>
 			<destination>{d0a37911-28f1-4a85-bafa-01b80d5bf553}</destination>
+			<destination>{73461aa9-100c-4f3c-9979-02af55e1ae76}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6bfb8e93-3ffd-4942-a934-ef1e00b245ca}">
@@ -171,7 +173,7 @@
 			<value>0.03125</value>
 		</property>
 		<property name="volume">
-			<value>-2.5</value>
+			<value>-3</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{5b0ee2b1-98e9-4fae-967f-03acc70f1ba2}</destination>
@@ -265,7 +267,7 @@
 			<value>321.75083373405039</value>
 		</property>
 		<property name="length">
-			<value>88.421068498067115</value>
+			<value>88.421068498067172</value>
 		</property>
 		<property name="looping">
 			<value>2</value>
@@ -361,6 +363,20 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{7d1e38d2-155c-4587-af5a-f19268499ef6}</destination>
+		</relationship>
+	</object>
+	<object class="TempoMarker" id="{73461aa9-100c-4f3c-9979-02af55e1ae76}">
+		<property name="position">
+			<value>321.75083373405039</value>
+		</property>
+		<property name="tempo">
+			<value>152</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{5af81c40-c4cf-434d-bd84-3d092e8a952f}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{5faddb54-8460-47d0-b653-57931da634cc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c36205df-e633-4767-af45-e7a6bdb7adba}">
