@@ -1,5 +1,5 @@
 # Pizza Tower FMOD Studio Project Recreation
-This project/tool aims to make a improvement/fixes to the Piza Tower sounds and to make modding sounds easier by just opening this with FMOD Studio instead of using other unofficial tools, allowing for any custom events/sounds/groups/etc to be able being added in the game!
+This project/tool aims to make a improvement/fixes to the Pizza Tower sounds and to make modding sounds easier by just opening this with FMOD Studio instead of using other unofficial tools, allowing for any custom events/sounds/groups/etc to be able being added in the game!
 
 ## Opening the project
 First of all, the program that needs to open this is [FMOD Studio](https://www.fmod.com) (which what Pizza Tower uses for it's sounds), it's free! It need to be the version above than 2.02.12. And ofcourse, you'll need to have a knowledge on how to use FMOD Studio to modify
