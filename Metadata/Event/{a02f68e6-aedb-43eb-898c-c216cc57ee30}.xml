@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{dc6866c2-eba5-48b2-9622-5497ae648c67}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{addf9d5a-f5f6-40b6-b56a-52132e48ea31}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{629371e3-41ad-4f46-9b5e-62b24255583e}</destination>
 		</relationship>
@@ -31,6 +34,9 @@
 		<relationship name="timeline">
 			<destination>{6fa42c3d-1f5d-4432-bdb1-450354c3247f}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{53f25f49-157b-4574-a2af-7ad58bb12b89}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{fbe9a1f6-c3f2-4df2-9566-590839085ffa}</destination>
 		</relationship>
@@ -41,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{35c77983-ddb5-4a6e-b3a3-6ad2cd0fbd2a}">
+		<relationship name="modules">
+			<destination>{9bc9246c-adac-447d-ad48-f3a15741b871}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cba9b710-e282-4547-bd78-23cf10d60d85}</destination>
 		</relationship>
@@ -53,22 +62,24 @@
 			<destination>{a342dc4f-8407-4531-95e3-101f0259447b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c46ef0bb-4b4e-4168-8ede-ecfed42b448a}</destination>
+			<destination>{1aa1db3b-f090-4e19-ab68-bd8089cb2ecf}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{077dbf53-d677-4081-8ef8-d02e1a3e6ab9}" />
 	<object class="MarkerTrack" id="{998f0268-68e0-42de-82fb-72185a5c0623}" />
 	<object class="GroupTrack" id="{621641fa-a290-458a-ab7f-653fb54b98cf}">
-		<relationship name="modules">
-			<destination>{bc938eaf-2fee-41b9-8f55-87cfbb285ec4}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{8c996c2d-58bc-4247-a4cc-8f6be2d1efd1}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{6fa42c3d-1f5d-4432-bdb1-450354c3247f}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="ActionSheet" id="{53f25f49-157b-4574-a2af-7ad58bb12b89}">
 		<relationship name="modules">
-			<destination>{bc938eaf-2fee-41b9-8f55-87cfbb285ec4}</destination>
+			<destination>{9bc9246c-adac-447d-ad48-f3a15741b871}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cba9b710-e282-4547-bd78-23cf10d60d85}">
@@ -82,20 +93,17 @@
 			<destination>{629371e3-41ad-4f46-9b5e-62b24255583e}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{9bc9246c-adac-447d-ad48-f3a15741b871}">
+		<relationship name="sounds">
+			<destination>{ecbbc613-9252-41e3-8fc3-7460a0908763}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{7c2d5297-0255-411e-a465-dbe013bab6ee}">
 		<relationship name="effects">
 			<destination>{6800c8e6-42a7-4c0a-b7f9-8de4d0cf2ddf}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a342dc4f-8407-4531-95e3-101f0259447b}" />
-	<object class="SingleSound" id="{bc938eaf-2fee-41b9-8f55-87cfbb285ec4}">
-		<property name="length">
-			<value>0.47708333333333336</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{20e6349a-aa50-4555-b9f2-458962e34131}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{8c996c2d-58bc-4247-a4cc-8f6be2d1efd1}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -117,6 +125,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0076e933-d686-4179-b570-d2b40fb27e4a}" />
+	<object class="SingleSound" id="{ecbbc613-9252-41e3-8fc3-7460a0908763}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{20e6349a-aa50-4555-b9f2-458962e34131}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{6800c8e6-42a7-4c0a-b7f9-8de4d0cf2ddf}" />
 	<object class="MixerBusEffectChain" id="{8715f88f-aaf2-4f89-b03a-01ebd7295548}">
 		<relationship name="effects">
