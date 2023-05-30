@@ -20,4 +20,3 @@ When modifying the project, please to make sure to use the event templates that'
 * [AwfulNasty](https://github.com/AwfulNasty) - MAJOR Contributions help on adding bunch of sfx events
 * [MeliaDev](https://github.com/MeliaDev) - Contributions help on adding events ([Twitter](https://twitter.com/darkdagirl))
 * [thecubitosishere](https://github.com/thecubitoishere) - Contributions help on adding events
-* [LManios](https://github.com/LManios) - Little help on adding events
