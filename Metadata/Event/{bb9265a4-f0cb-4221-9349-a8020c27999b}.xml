@@ -133,7 +133,6 @@
 	<object class="MixerBusEffectChain" id="{042b190d-ee59-4797-a130-faaf5a345aed}">
 		<relationship name="effects">
 			<destination>{809a5a6b-4ff8-4421-af0f-a16de2780485}</destination>
-			<destination>{1d43a9eb-0804-4512-b936-5730fbb3f5f1}</destination>
 			<destination>{1d94b834-f368-43ce-a33b-6aa5308078ba}</destination>
 		</relationship>
 	</object>
@@ -146,28 +145,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{91a4ca22-af12-4ee6-b875-af7f70efb17a}" />
 	<object class="MixerBusFader" id="{809a5a6b-4ff8-4421-af0f-a16de2780485}" />
-	<object class="PannerEffect" id="{1d43a9eb-0804-4512-b936-5730fbb3f5f1}">
-		<relationship name="modulators">
-			<destination>{986bdd7a-1ed4-4b4c-a858-3161cdd1e6cf}</destination>
-		</relationship>
-	</object>
-	<object class="SpatialiserEffect" id="{1d94b834-f368-43ce-a33b-6aa5308078ba}" />
-	<object class="MixerBusFader" id="{adc38d0d-ef21-46bf-8cc8-69d83de6f209}" />
-	<object class="LFOModulator" id="{986bdd7a-1ed4-4b4c-a858-3161cdd1e6cf}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>stereoPan</value>
+	<object class="SpatialiserEffect" id="{1d94b834-f368-43ce-a33b-6aa5308078ba}">
+		<property name="maximumDistance">
+			<value>1600</value>
 		</property>
-		<property name="shape">
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
 			<value>1</value>
 		</property>
-		<property name="rate">
-			<value>7.4000001</value>
+		<property name="soundSize">
+			<value>2000</value>
 		</property>
-		<property name="depth">
-			<value>5</value>
-		</property>
-		<property name="direction">
-			<value>60</value>
+		<property name="minimumExtent">
+			<value>10</value>
 		</property>
 	</object>
+	<object class="MixerBusFader" id="{adc38d0d-ef21-46bf-8cc8-69d83de6f209}" />
 </objects>
