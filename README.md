@@ -10,7 +10,7 @@ This project/tool aims to make a improvement/fixes to the Pizza Tower sounds and
 ## Opening the project
 First of all, the program that needs to open this is [FMOD Studio](https://www.fmod.com) (which what Pizza Tower uses for it's sounds), it's free! It need to be the version above than 2.02.12. And ofcourse, you'll need to have a knowledge on how to use FMOD Studio to modify
 
-![Downloading FMOD Studio Preview](.github/readme/download-fmod.png)
+[![Downloading FMOD Studio Preview](.github/readme/download-fmod.png)](https://www.fmod.com/download)
 
 [Here a quick Youtube Video on how to use FMOD Studio](https://youtu.be/7A1HMOsD2eU)
 
