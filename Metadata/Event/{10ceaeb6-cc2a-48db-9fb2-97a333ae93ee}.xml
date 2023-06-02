@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{d067c2e1-13d4-4695-b308-1f9efd7f01ba}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{addf9d5a-f5f6-40b6-b56a-52132e48ea31}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{dc6a41c6-87b5-4dbc-970b-8135fd44cc38}</destination>
 		</relationship>
@@ -96,32 +99,34 @@
 	<object class="MixerBusEffectChain" id="{7611eaf4-0d9f-4f80-ab4c-efdbe87c1d4b}">
 		<relationship name="effects">
 			<destination>{5e7ebc49-1231-45dd-8090-3ab55308f0d7}</destination>
-			<destination>{3048c60f-88dd-4525-aa17-cd37e0350aa9}</destination>
+			<destination>{f623f9a0-96df-4f21-8b6a-fc8e5d91ac98}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a67e2221-b065-49c0-89ad-d66bd1c25208}" />
 	<object class="SingleSound" id="{136a3798-f958-423d-ba86-e8cd41f7b8d9}">
+		<relationship name="modulators">
+			<destination>{990a5915-f790-4dfc-9b1b-5ee4c939778c}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{6324f1b6-7a62-4eaf-b63a-2f37d2ba7620}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b3f62fa7-034a-4b6b-b793-73de5d197e73}" />
 	<object class="MixerBusFader" id="{5e7ebc49-1231-45dd-8090-3ab55308f0d7}" />
-	<object class="SpatialiserEffect" id="{3048c60f-88dd-4525-aa17-cd37e0350aa9}">
-		<property name="maximumDistance">
-			<value>1600</value>
+	<object class="ProxyEffect" id="{f623f9a0-96df-4f21-8b6a-fc8e5d91ac98}">
+		<property name="inputFormat">
+			<value>0</value>
 		</property>
-		<property name="overrideRange">
-			<value>true</value>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{990a5915-f790-4dfc-9b1b-5ee4c939778c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
 		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
-		<property name="minimumExtent">
-			<value>10</value>
+		<property name="amount">
+			<value>12.5</value>
 		</property>
 	</object>
 </objects>

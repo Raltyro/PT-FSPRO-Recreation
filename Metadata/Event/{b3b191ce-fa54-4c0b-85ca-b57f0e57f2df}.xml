@@ -79,10 +79,13 @@
 	</object>
 	<object class="SingleSound" id="{76281dc6-aca7-4ff9-b316-86075b1cb096}">
 		<property name="length">
-			<value>0.95999999999999996</value>
+			<value>0.95099999999999996</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.11</value>
+			<value>0.11900000000000001</value>
+		</property>
+		<property name="volume">
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{fe738588-ac35-47c9-aa1c-ecfdc0f5a67b}</destination>
@@ -97,27 +100,24 @@
 	<object class="MixerBusEffectChain" id="{6ecbcc88-ca7d-42ad-bf42-295df828553a}">
 		<relationship name="effects">
 			<destination>{dd51aaed-10ac-4919-8717-888b1b8567dd}</destination>
-			<destination>{d0c77716-d887-4a15-a71e-b98b04393f58}</destination>
+			<destination>{4554598c-8b77-4979-9d43-28fdf42d548e}</destination>
+			<destination>{ea82ea62-7a24-4687-abe6-ce5f409564fa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8d4f1889-1770-45ff-91bd-7e7312ec80a4}" />
 	<object class="MixerBusFader" id="{dca21884-e68e-4fe6-9736-c2e39cc9b5a9}" />
 	<object class="MixerBusFader" id="{dd51aaed-10ac-4919-8717-888b1b8567dd}" />
-	<object class="SpatialiserEffect" id="{d0c77716-d887-4a15-a71e-b98b04393f58}">
-		<property name="maximumDistance">
-			<value>1600</value>
+	<object class="ThreeEQEffect" id="{4554598c-8b77-4979-9d43-28fdf42d548e}">
+		<property name="midGain">
+			<value>-6</value>
 		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
+	</object>
+	<object class="ProxyEffect" id="{ea82ea62-7a24-4687-abe6-ce5f409564fa}">
+		<property name="inputFormat">
 			<value>1</value>
 		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
-		<property name="minimumExtent">
-			<value>10</value>
-		</property>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
+		</relationship>
 	</object>
 </objects>
