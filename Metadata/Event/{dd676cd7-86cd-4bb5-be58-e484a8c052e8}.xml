@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dd676cd7-86cd-4bb5-be58-e484a8c052e8}">
-		<property name="note">
-			<value>innacurate</value>
-		</property>
+		<property name="note" />
 		<property name="name">
 			<value>superspring</value>
 		</property>
@@ -15,6 +13,7 @@
 		</relationship>
 		<relationship name="tags">
 			<destination>{addf9d5a-f5f6-40b6-b56a-52132e48ea31}</destination>
+			<destination>{5387dc49-f89e-498d-8789-f5ad04eadfd9}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f9d71298-b671-41b2-bd92-06bcd33be9c6}</destination>
@@ -125,7 +124,7 @@
 	<object class="MixerBusEffectChain" id="{cb376216-dc25-4f6e-9387-840af3bd23bf}">
 		<relationship name="effects">
 			<destination>{cce628bd-8782-4974-9628-9b8512e645ad}</destination>
-			<destination>{8b9dce7b-16eb-4739-a710-228a97fb95b6}</destination>
+			<destination>{5f43eb99-c74f-4833-b9e4-2ae68739401d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{411f45a0-44a1-4e33-80fc-88dbca298bb4}" />
@@ -139,22 +138,13 @@
 	</object>
 	<object class="MixerBusFader" id="{21d8f79e-7c8b-40b7-9e47-d742859a932c}" />
 	<object class="MixerBusFader" id="{cce628bd-8782-4974-9628-9b8512e645ad}" />
-	<object class="SpatialiserEffect" id="{8b9dce7b-16eb-4739-a710-228a97fb95b6}">
-		<property name="maximumDistance">
-			<value>1600</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
+	<object class="ProxyEffect" id="{5f43eb99-c74f-4833-b9e4-2ae68739401d}">
+		<property name="inputFormat">
 			<value>1</value>
 		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
-		<property name="minimumExtent">
-			<value>10</value>
-		</property>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
+		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{262bed4b-b159-49ad-98ca-9d2c4d3d9b3b}">
 		<property name="position">
