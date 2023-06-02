@@ -3,7 +3,7 @@
 [![Open Issues](https://badgen.net/github/open-issues/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/issues)
 [![Open Pull Requests](https://badgen.net/github/open-prs/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/pulls)
 [![License](https://img.shields.io/github/license/Raltyro/Pizza-Tower-fspro-Recreation?logo=github)](LICENSE.txt)
-[![FMOD Studio Version](https://badgen.net/badge/FMOD Studio Version/2.02.13/orange)](https://www.fmod.com)
+[![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.13/orange)](https://www.fmod.com)
 
 [![PT FSPRO Repository Image](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/blob/main/.github/readme/banner_fspro.png?raw=true)](https://gamebanana.com/wips/75631)
 
