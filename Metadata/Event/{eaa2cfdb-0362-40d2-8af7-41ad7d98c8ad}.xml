@@ -12,7 +12,6 @@
 		</relationship>
 		<relationship name="tags">
 			<destination>{45087c6f-9798-4c04-8152-cdacb05ec815}</destination>
-			<destination>{5387dc49-f89e-498d-8789-f5ad04eadfd9}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{bb541917-86bf-4078-b399-9840a3adae9f}</destination>
@@ -87,6 +86,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ba45aa80-1047-47e6-90a0-2a443a704724}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{c18655b3-5e2c-4d98-8497-18e9919b7e50}</destination>
 		</relationship>
@@ -126,6 +128,8 @@
 		<relationship name="effects">
 			<destination>{166a9050-872e-45b4-af08-8d4019be409f}</destination>
 			<destination>{08f0d276-02a8-4096-aee4-5cf649022a0d}</destination>
+			<destination>{4a9cf64e-35f2-4e76-a761-670ee025d39f}</destination>
+			<destination>{bbeb0da2-25c1-44b8-a9e9-fb2b0824ad6d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0313b4ef-9b00-4d3a-a69a-38bdd14c81fa}" />
@@ -154,6 +158,22 @@
 		</property>
 		<property name="highGain">
 			<value>10</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{4a9cf64e-35f2-4e76-a761-670ee025d39f}">
+		<property name="level">
+			<value>0.25</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{bbeb0da2-25c1-44b8-a9e9-fb2b0824ad6d}">
+		<property name="rate">
+			<value>2.5</value>
+		</property>
+		<property name="delay">
+			<value>0.149999991</value>
+		</property>
+		<property name="mix">
+			<value>100</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{4d3d9597-b094-4ae9-824c-328cd7702f92}" />
