@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{13adae87-0c8e-4226-9bc6-556344489c1f}">
-		<property name="note">
-			<value>innacurate (prob missing sound)</value>
-		</property>
+		<property name="note" />
 		<property name="name">
 			<value>giantballoon2</value>
 		</property>
@@ -12,6 +10,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{148f8022-e4b2-4ede-9124-dc88606816a6}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{45087c6f-9798-4c04-8152-cdacb05ec815}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{bf1a4e05-f089-4024-af47-115f67fe4d35}</destination>
@@ -93,6 +94,7 @@
 			<destination>{e3039e7c-85b3-4620-aac2-60c36c6a0199}</destination>
 			<destination>{921d0e98-96e9-4f47-a388-d239b83c4bc4}</destination>
 			<destination>{de531758-197a-4227-8f9e-ed32c108a158}</destination>
+			<destination>{7ee68fbd-c072-446d-9e4a-39df83219031}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{9dd06b33-6f26-42de-a38c-555f89933bbf}">
@@ -109,7 +111,7 @@
 	<object class="MixerBusPanner" id="{48dc7da0-c1ac-460e-92d1-a48dff233d80}" />
 	<object class="SingleSound" id="{e3039e7c-85b3-4620-aac2-60c36c6a0199}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-8</value>
 		</property>
 		<property name="pitch">
 			<value>-24</value>
@@ -119,19 +121,27 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{921d0e98-96e9-4f47-a388-d239b83c4bc4}">
-		<property name="volume">
-			<value>-2</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{75572f3c-48da-44ef-8b1a-73fda2f00ced}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{de531758-197a-4227-8f9e-ed32c108a158}">
-		<property name="volume">
-			<value>-2</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{b2188f3d-ecdb-41aa-8cf0-fa1c653b41f8}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{7ee68fbd-c072-446d-9e4a-39df83219031}">
+		<property name="startOffset">
+			<value>24.5</value>
+		</property>
+		<property name="volume">
+			<value>4</value>
+		</property>
+		<property name="pitch">
+			<value>-16</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{f499fd41-3ee4-46d6-8ad4-ccdea6bdc76c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{03dd23a8-6563-496f-983a-2eefe3ece5e1}" />
