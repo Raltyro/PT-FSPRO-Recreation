@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{110072ff-3410-4059-9abd-c3ab57ff0f67}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{addf9d5a-f5f6-40b6-b56a-52132e48ea31}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{de26b996-8113-41cd-a2ff-a40767d74113}</destination>
 		</relationship>
@@ -121,11 +124,15 @@
 	<object class="MixerBusEffectChain" id="{a08c3aa1-8d41-4899-ba68-04e2ccf72f1e}">
 		<relationship name="effects">
 			<destination>{30c3597a-5b0d-4bea-aae9-9d0379bd53e8}</destination>
-			<destination>{8ecd251d-1cfe-41f6-a944-38be0ec5f6a7}</destination>
+			<destination>{dce3ca78-5097-4005-abb6-4266ccfdffd5}</destination>
+			<destination>{85846de1-0525-40cf-a178-81165e28955e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c720a139-9853-4971-a9bd-f9c4ee2abfd8}" />
 	<object class="SingleSound" id="{738517c4-4126-41dc-a8ca-a74869e1c3a8}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6dfd2c5a-82b6-42d6-a362-e26f0efb0e23}</destination>
 		</relationship>
@@ -138,22 +145,18 @@
 	</object>
 	<object class="MixerBusPanner" id="{a380f9e5-8728-4863-82bd-9019fc146df7}" />
 	<object class="MixerBusFader" id="{30c3597a-5b0d-4bea-aae9-9d0379bd53e8}" />
-	<object class="SpatialiserEffect" id="{8ecd251d-1cfe-41f6-a944-38be0ec5f6a7}">
-		<property name="maximumDistance">
-			<value>1600</value>
+	<object class="ThreeEQEffect" id="{dce3ca78-5097-4005-abb6-4266ccfdffd5}">
+		<property name="highGain">
+			<value>6</value>
 		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
+	</object>
+	<object class="ProxyEffect" id="{85846de1-0525-40cf-a178-81165e28955e}">
+		<property name="inputFormat">
 			<value>1</value>
 		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
-		<property name="minimumExtent">
-			<value>10</value>
-		</property>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d2fadc88-5abd-4d73-9c47-f0914a16d15a}" />
 </objects>
