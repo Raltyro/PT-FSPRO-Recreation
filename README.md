@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/Raltyro/Pizza-Tower-fspro-Recreation?logo=github)](LICENSE.txt)
 [![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.00/orange)](https://www.fmod.com)
 
-[![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://gamebanana.com/wips/75631)
+[![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://gamebanana.com/tools/13432)
 
 This project/tool aims to be atleast somewhat 1:1 recreation and to make improvements/fixes to Pizza Tower sounds,
 while making them easier to mod in the sounds by just opening this with FMOD Studio instead of using other unofficial tools,
