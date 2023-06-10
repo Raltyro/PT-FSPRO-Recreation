@@ -80,7 +80,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{3fdacdc4-237c-4b53-b8ee-7e4756f0f644}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-16</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b0119c71-6fc8-4846-9295-45c45d11e778}</destination>
@@ -106,8 +106,8 @@
 	<object class="MixerBusEffectChain" id="{b0119c71-6fc8-4846-9295-45c45d11e778}">
 		<relationship name="effects">
 			<destination>{67acfdd0-0c59-4319-b0e0-f6b235fa68df}</destination>
-			<destination>{9ae1eb16-65b6-400a-a30a-da7bbcebc5d3}</destination>
 			<destination>{9c4d24dc-af98-4acd-baf3-d241c18ffe8b}</destination>
+			<destination>{9ae1eb16-65b6-400a-a30a-da7bbcebc5d3}</destination>
 			<destination>{aa968e48-e10e-482f-af42-13b20373b8e8}</destination>
 		</relationship>
 	</object>
@@ -119,6 +119,7 @@
 	</object>
 	<object class="MixerBusFader" id="{0754bf5f-8817-427e-9888-74d2940e4799}" />
 	<object class="MixerBusFader" id="{67acfdd0-0c59-4319-b0e0-f6b235fa68df}" />
+	<object class="DistortionEffect" id="{9c4d24dc-af98-4acd-baf3-d241c18ffe8b}" />
 	<object class="SpatialiserEffect" id="{9ae1eb16-65b6-400a-a30a-da7bbcebc5d3}">
 		<property name="maximumDistance">
 			<value>4000</value>
@@ -134,11 +135,6 @@
 		</property>
 		<property name="minimumExtent">
 			<value>84</value>
-		</property>
-	</object>
-	<object class="DistortionEffect" id="{9c4d24dc-af98-4acd-baf3-d241c18ffe8b}">
-		<property name="level">
-			<value>0.25</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{aa968e48-e10e-482f-af42-13b20373b8e8}">

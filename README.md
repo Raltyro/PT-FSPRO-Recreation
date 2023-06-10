@@ -3,20 +3,24 @@
 [![Open Issues](https://badgen.net/github/open-issues/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/issues)
 [![Open Pull Requests](https://badgen.net/github/open-prs/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/pulls)
 [![License](https://img.shields.io/github/license/Raltyro/Pizza-Tower-fspro-Recreation?logo=github)](LICENSE.txt)
-[![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.13/orange)](https://www.fmod.com)
+[![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.00/orange)](https://www.fmod.com)
 
-[![PT FSPRO Repository Image](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/blob/main/.github/readme/banner_fspro.png?raw=true)](https://gamebanana.com/wips/75631)
+[![PT FSPRO Repository Image](.github/readme/banner_fspro.png)](https://gamebanana.com/wips/75631)
 
-This project/tool aims to make a improvement/fixes to the Pizza Tower sounds and to make modding sounds easier by just opening this with FMOD Studio instead of using other unofficial tools, allowing for any custom events/sounds/groups/etc to be able being added in the game!
+This project/tool aims to be atleast somewhat 1:1 recreation and to make improvements/fixes to Pizza Tower sounds,
+while making them easier to mod in the sounds by just opening this with FMOD Studio instead of using other unofficial tools,
+allowing for any custom events/sounds/groups/etc to be able being added in the game!
 
 ## Opening the project
-First of all, the program that needs to open this is [FMOD Studio](https://www.fmod.com) (which what Pizza Tower uses for it's sounds), it's free! It need to be the version above than 2.02.13. And ofcourse, you'll need to have a knowledge on how to use FMOD Studio to modify
+First of all, the program that needs to open this is [FMOD Studio](https://www.fmod.com) (which what Pizza Tower uses for it's sounds),
+it's free! It need to be the version above than 2.02.00. And ofcourse, you'll need to have a knowledge on how to use FMOD Studio to modify
 
 [![Downloading FMOD Studio Preview](.github/readme/download-fmod.png)](https://www.fmod.com/download)
 
 [Here a quick Youtube Video on how to use FMOD Studio](https://youtu.be/7A1HMOsD2eU)
 
-After installing FMOD Studio, don't open the project yet, it needs to have the Pizza Tower Assets first, to do that, extract the Pizza Tower banks files at `sound\Desktop` to wav with the [Unofficial FMOD Banks Tool](https://gamebanana.com/tools/12100)
+After installing FMOD Studio, don't open the project yet, it needs to have the Pizza Tower Assets first, to do that,
+extract the Pizza Tower banks files at `sound\Desktop` to wav with the [Unofficial FMOD Banks Tool](https://gamebanana.com/tools/12100)
 
 Put it into the repository `Assets` folder, and you should be good to go to open this with FMOD Studio!
 
