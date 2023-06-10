@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{87e441ae-8c1a-415a-a3b9-a5101060c946}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{addf9d5a-f5f6-40b6-b56a-52132e48ea31}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{1a3e5231-3230-43a5-88c3-554ea2725cbb}</destination>
 		</relationship>
@@ -96,7 +99,7 @@
 	<object class="MixerBusEffectChain" id="{1415f3bf-2db4-4639-8f6f-3d35d272220a}">
 		<relationship name="effects">
 			<destination>{e0e03630-2deb-40d4-9cde-c9ac342715c2}</destination>
-			<destination>{6754a449-c2d5-4aca-b7eb-aa05170cb54f}</destination>
+			<destination>{dae2dc9e-77cd-4b26-b84f-4d5d340c68fd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{57b99af3-90dd-4bdc-ac75-7505ae16b437}" />
@@ -107,21 +110,12 @@
 	</object>
 	<object class="MixerBusFader" id="{7ffe70ab-6307-425f-bc6f-70f7a5de02e4}" />
 	<object class="MixerBusFader" id="{e0e03630-2deb-40d4-9cde-c9ac342715c2}" />
-	<object class="SpatialiserEffect" id="{6754a449-c2d5-4aca-b7eb-aa05170cb54f}">
-		<property name="maximumDistance">
-			<value>1600</value>
+	<object class="ProxyEffect" id="{dae2dc9e-77cd-4b26-b84f-4d5d340c68fd}">
+		<property name="inputFormat">
+			<value>0</value>
 		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
-		<property name="minimumExtent">
-			<value>10</value>
-		</property>
+		<relationship name="preset">
+			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
+		</relationship>
 	</object>
 </objects>
