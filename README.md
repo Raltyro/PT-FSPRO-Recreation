@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/Raltyro/Pizza-Tower-fspro-Recreation?logo=github)](LICENSE.txt)
 [![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.00/orange)](https://www.fmod.com)
 
-[![PT FSPRO Repository Image](.github/readme/banner_fspro.png)](https://gamebanana.com/wips/75631)
+[![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://gamebanana.com/wips/75631)
 
 This project/tool aims to be atleast somewhat 1:1 recreation and to make improvements/fixes to Pizza Tower sounds,
 while making them easier to mod in the sounds by just opening this with FMOD Studio instead of using other unofficial tools,
@@ -25,7 +25,11 @@ extract the Pizza Tower banks files at `sound\Desktop` to wav with the [Unoffici
 Put it into the repository `Assets` folder, and you should be good to go to open this with FMOD Studio!
 
 ## Modifying
-When modifying the project, please to make sure to use the event templates that's provided in event tabs when your adding a new events, any Pull Requests that doesn't do this will be ignored/held for reviews until it get resolved.
+When modifying the project, please to make sure to use the event templates that's provided in event tabs when your adding a new events, without these, the events thats been made from scratch would have unexpected changes (that is being unaffected with ingame volumes, effects, not in the right mixer bus, etc)
+
+![PT FSPRO Repository Image](.github/readme/event-defaults.png)
+
+any Pull Requests that doesn't do this will be ignored/held for reviews until it get resolved.
 
 ## Credits
 * [Raltyro](https://github.com/Raltyro) - Maintainer ([Gamebanana](https://gamebanana.com/members/1777465), [Twitter](https://twitter.com/Raltyro))
