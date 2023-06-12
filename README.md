@@ -34,7 +34,7 @@ any Pull Requests that doesn't do this will be ignored/held for reviews until it
 ## Credits
 * [Raltyro](https://github.com/Raltyro) - Maintainer ([Gamebanana](https://gamebanana.com/members/1777465), [Twitter](https://twitter.com/Raltyro))
 * [AwfulNasty](https://github.com/AwfulNasty) - MAJOR Contributions on adding bunch of sfx events, linking this fspro with PT original banks, and etc
-* [theCarso](https://github.com/theCarso) - Contributions on helping to make linking this fspro with PT original banks possible (Making an automated script on applying the GUIDs)
+* theCarso - Contributions on helping to make linking this fspro with PT original banks possible (Making an automated script on applying the GUIDs)
 * [SlawekNowy](https://github.com/SlawekNowy) - Contributions on helping to make linking this fspro with PT original banks possible (Exporting the GUIDs)
 * [MeliaDev](https://github.com/MeliaDev) - Contributions help on adding events ([Twitter](https://twitter.com/darkdagirl))
 * [thecubitosishere](https://github.com/thecubitoishere) - Contributions help on adding events
