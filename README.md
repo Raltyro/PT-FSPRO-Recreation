@@ -3,7 +3,7 @@
 [![Open Issues](https://badgen.net/github/open-issues/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/issues)
 [![Open Pull Requests](https://badgen.net/github/open-prs/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/pulls)
 [![License](https://img.shields.io/github/license/Raltyro/Pizza-Tower-fspro-Recreation?logo=github)](LICENSE.txt)
-[![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.00/orange)](https://www.fmod.com)
+[![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.00%20-%202.02.16/orange)](https://www.fmod.com)
 
 [![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://gamebanana.com/tools/13432)
 
@@ -32,11 +32,11 @@ When modifying the project, please to make sure to use the event templates that'
 any Pull Requests that doesn't do this will be ignored/held for reviews until it get resolved.
 
 ## Credits
-* [Raltyro](https://github.com/Raltyro) - Maintainer ([Gamebanana](https://gamebanana.com/members/1777465), [Twitter](https://twitter.com/Raltyro))
+* [Raltyro](https://github.com/Raltyro) ([Gamebanana](https://gamebanana.com/members/1777465), [Twitter](https://twitter.com/Raltyro)) - Maintainer
 * [AwfulNasty](https://github.com/AwfulNasty) - MAJOR Contributions on adding bunch of sfx events, linking this fspro with PT original banks, and etc
-* theCarso - Contributions on helping to make linking this fspro with PT original banks possible (Making an automated script on applying the GUIDs)
+* [theCarso](https://github.com/theCarso) - Contributions on helping to make linking this fspro with PT original banks possible (Making an automated script on applying the GUIDs)
 * [SlawekNowy](https://github.com/SlawekNowy) - Contributions on helping to make linking this fspro with PT original banks possible (Exporting the GUIDs)
-* [MeliaDev](https://github.com/MeliaDev) - Contributions help on adding events ([Twitter](https://twitter.com/darkdagirl))
+* [MeliaDev](https://github.com/MeliaDev) ([Twitter](https://twitter.com/darkdagirl)) - Contributions help on adding events
 * [thecubitosishere](https://github.com/thecubitoishere) - Contributions help on adding events
 
 Without these Contributors, this project wouldn't be possible without them!
