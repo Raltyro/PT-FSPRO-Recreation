@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a20059b3-841d-4365-b7a5-a8aa1bf37cf8}">
+		<property name="note">
+			<value>PERSISTENT IS NEEDED SO THE INSTANCE WONT GET AUTOMATICALLY DELETED ITSELF INGAME WHEN IT ENDS ON SUSTAIN POINTS
+
+BTW The loop on It's Pizza Time! actually starts on beats 
+32, but it's uncomforting to hear it so i just put it in beats 72, if anyone want to change it, there you go</value>
+		</property>
 		<property name="name">
 			<value>pizzatime</value>
 		</property>
@@ -115,7 +121,7 @@
 	</object>
 	<object class="TransitionDestinationSound" id="{2359d56c-236d-4448-a162-b075c5550d9f}">
 		<property name="length">
-			<value>4.2000000000000002</value>
+			<value>4.7999999999999998</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{bdd892bf-0cc5-4ada-b78c-bf2b2de8c58a}</destination>
@@ -123,10 +129,10 @@
 	</object>
 	<object class="TransitionSourceSound" id="{78f6ecc8-4736-493f-ab9b-7dc605940086}">
 		<property name="length">
-			<value>4.2000000000000002</value>
+			<value>4.7999999999999998</value>
 		</property>
 		<relationship name="fadeOutCurve">
-			<destination>{c1225e26-4d07-4209-b409-8ae7c40cdf8e}</destination>
+			<destination>{424d0cba-0245-41e3-bb15-a49bde397938}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{911a923d-b005-4b75-8371-ba000ca7061c}">
@@ -196,7 +202,7 @@
 			<value>0.024834437086099115</value>
 		</property>
 		<property name="volume">
-			<value>-2</value>
+			<value>-1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{fd7f311b-d180-4a1a-8d15-2fd7559d8611}</destination>
@@ -303,7 +309,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>170.57959520721798</value>
+			<value>168.57959520721798</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
@@ -418,15 +424,12 @@
 			<destination>{df62141e-ca8d-4a63-beff-dbe1c91e889d}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceFadeOutCurve" id="{c1225e26-4d07-4209-b409-8ae7c40cdf8e}">
+	<object class="TransitionSourceFadeOutCurve" id="{424d0cba-0245-41e3-bb15-a49bde397938}">
 		<relationship name="startPoint">
-			<destination>{f5fdc47c-ca6f-436b-9a53-5a83381de8df}</destination>
+			<destination>{4bc191e4-23bc-4b01-a870-12d6aebac629}</destination>
 		</relationship>
 		<relationship name="endPoint">
-			<destination>{62dc986c-ede3-40ce-bd8d-b486d8c8e119}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{2359d56c-236d-4448-a162-b075c5550d9f}</destination>
+			<destination>{0ee795b2-c089-4b97-a2a8-766e425a1231}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{92e3edb5-21be-4cfa-ab58-267762fd2c9b}">
@@ -473,13 +476,10 @@
 	<object class="MixerBusFader" id="{37d6c279-dee9-44da-9f4d-31d70d148f48}" />
 	<object class="ParameterCondition" id="{4a6bbbdd-071a-456d-b8ac-84c431f069e9}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
-		</property>
-		<property name="isInverted">
-			<value>true</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
@@ -496,7 +496,7 @@
 	</object>
 	<object class="TransitionTimeline" id="{01544abf-8ce0-4f78-8b7d-88165337b28c}">
 		<property name="length">
-			<value>4.2000000000000002</value>
+			<value>4.7999999999999998</value>
 		</property>
 		<relationship name="modules">
 			<destination>{78f6ecc8-4736-493f-ab9b-7dc605940086}</destination>
@@ -508,7 +508,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>0.15000000596046448</value>
+			<value>0</value>
 		</property>
 		<property name="isInverted">
 			<value>true</value>
@@ -562,10 +562,13 @@
 	</object>
 	<object class="ParameterCondition" id="{b2348556-aab5-47fb-a5ab-52ea322bbc7e}">
 		<property name="minimum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>1.9500000476837158</value>
+			<value>2</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
@@ -591,20 +594,20 @@
 			<value>1</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{f5fdc47c-ca6f-436b-9a53-5a83381de8df}">
+	<object class="AutomationPoint" id="{4bc191e4-23bc-4b01-a870-12d6aebac629}">
 		<property name="position">
-			<value>0</value>
+			<value>4.4408920985006262e-16</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.384727955</value>
+			<value>-1.00000048</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{62dc986c-ede3-40ce-bd8d-b486d8c8e119}">
+	<object class="AutomationPoint" id="{0ee795b2-c089-4b97-a2a8-766e425a1231}">
 		<property name="position">
-			<value>4.2000000000000002</value>
+			<value>4.7999999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>

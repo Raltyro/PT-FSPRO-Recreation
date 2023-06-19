@@ -384,6 +384,7 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{f9eeda89-133a-460c-b0cb-f11fd3c6bbed}</destination>
+			<destination>{67c87e37-a04d-422f-958e-b470a4c3ffd5}</destination>
 		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{8c0ccec3-eac7-4461-b7c1-97a09663a951}</destination>
@@ -558,7 +559,21 @@
 	</object>
 	<object class="ParameterCondition" id="{f9eeda89-133a-460c-b0cb-f11fd3c6bbed}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{67c87e37-a04d-422f-958e-b470a4c3ffd5}">
+		<property name="minimum">
+			<value>0</value>
 		</property>
 		<property name="maximum">
 			<value>1</value>
