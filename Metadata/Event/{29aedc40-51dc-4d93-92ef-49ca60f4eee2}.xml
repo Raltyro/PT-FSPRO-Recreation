@@ -30,6 +30,9 @@
 			<destination>{9275f072-c989-488d-ba06-628a4e5b27ff}</destination>
 			<destination>{aa47f6dd-9e66-4a32-b516-4db9deefa815}</destination>
 		</relationship>
+		<relationship name="groupTracks">
+			<destination>{78b6e0eb-23e9-4854-a8bb-48309db90213}</destination>
+		</relationship>
 		<relationship name="timeline">
 			<destination>{c02bb0d7-41e5-4f6c-992a-bb470f08ef0d}</destination>
 		</relationship>
@@ -46,9 +49,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c7ecb0b9-5177-4f2f-b956-bdc9431a9bd2}">
-		<relationship name="modules">
-			<destination>{ddc073ee-1c24-4a55-9a38-f1adfbed6f34}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3c22c5ac-c28b-4d7e-9d83-49162c7060ab}</destination>
 		</relationship>
@@ -67,6 +67,14 @@
 	<object class="EventAutomatableProperties" id="{2544de7c-0ac8-4a40-95df-3f344cd252d0}" />
 	<object class="MarkerTrack" id="{9275f072-c989-488d-ba06-628a4e5b27ff}" />
 	<object class="MarkerTrack" id="{aa47f6dd-9e66-4a32-b516-4db9deefa815}" />
+	<object class="GroupTrack" id="{78b6e0eb-23e9-4854-a8bb-48309db90213}">
+		<relationship name="modules">
+			<destination>{ddc073ee-1c24-4a55-9a38-f1adfbed6f34}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{ebde6a62-ccf8-4cb1-98f5-b1434ecaa45b}</destination>
+		</relationship>
+	</object>
 	<object class="Timeline" id="{c02bb0d7-41e5-4f6c-992a-bb470f08ef0d}">
 		<relationship name="modules">
 			<destination>{ddc073ee-1c24-4a55-9a38-f1adfbed6f34}</destination>
@@ -87,6 +95,12 @@
 			<destination>{0b72ffe0-ad9b-49a2-9c5e-49b11e8ab935}</destination>
 		</relationship>
 	</object>
+	<object class="MixerBusEffectChain" id="{8a69ce03-d8f6-4ddf-9ee3-b63832ac08a9}">
+		<relationship name="effects">
+			<destination>{aabc2b7b-7c01-4bf1-828c-86eca3a8fe78}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{fb92de5c-bad9-4698-9762-6816fe437a6b}" />
 	<object class="SingleSound" id="{ddc073ee-1c24-4a55-9a38-f1adfbed6f34}">
 		<property name="length">
 			<value>210.21270833333332</value>
@@ -101,18 +115,26 @@
 			<destination>{62259d58-93a5-46dc-8674-a7add841b85c}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusEffectChain" id="{8a69ce03-d8f6-4ddf-9ee3-b63832ac08a9}">
-		<relationship name="effects">
-			<destination>{aabc2b7b-7c01-4bf1-828c-86eca3a8fe78}</destination>
+	<object class="EventMixerGroup" id="{ebde6a62-ccf8-4cb1-98f5-b1434ecaa45b}">
+		<property name="name">
+			<value>Audio 1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{fa90f2e3-e59f-4193-a049-893f373b4303}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0cd42791-8c0d-4bf9-a1b5-ea8dd5867f6c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{3c22c5ac-c28b-4d7e-9d83-49162c7060ab}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{fb92de5c-bad9-4698-9762-6816fe437a6b}" />
 	<object class="LoopRegion" id="{7d26edb6-714e-45ed-9c78-f69ccf80006b}">
 		<property name="position">
-			<value>5.2554744525547452</value>
+			<value>3.5036496350364965</value>
 		</property>
 		<property name="length">
-			<value>203.2116788321168</value>
+			<value>203.21167883211677</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{c02bb0d7-41e5-4f6c-992a-bb470f08ef0d}</destination>
@@ -142,5 +164,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{a48ca2ca-0a37-451d-9519-9b7ce056af49}" />
 	<object class="MixerBusFader" id="{aabc2b7b-7c01-4bf1-828c-86eca3a8fe78}" />
+	<object class="MixerBusEffectChain" id="{fa90f2e3-e59f-4193-a049-893f373b4303}">
+		<relationship name="effects">
+			<destination>{a0b866e1-a5ea-4353-a975-e5edbdf01a15}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0cd42791-8c0d-4bf9-a1b5-ea8dd5867f6c}" />
 	<object class="MixerBusFader" id="{e94bbbb0-63f3-417f-82e8-10e405d7caa9}" />
+	<object class="MixerBusFader" id="{a0b866e1-a5ea-4353-a975-e5edbdf01a15}" />
 </objects>
