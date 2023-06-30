@@ -20,7 +20,8 @@ it's free! It need to be the version above than 2.02.00. And ofcourse, you'll ne
 [Here a quick Youtube Video on how to use FMOD Studio](https://youtu.be/7A1HMOsD2eU)
 
 After installing FMOD Studio, don't open the project yet, it needs to have the Pizza Tower Assets first, to do that,
-extract the Pizza Tower banks files at `sound\Desktop` to wav with the [Unofficial FMOD Banks Tool](https://gamebanana.com/tools/12100)
+extract the Pizza Tower banks files at `sound\Desktop` to wav with the [Unofficial FMOD Banks Tool](https://gamebanana.com/tools/12100)  
+([or you can grab the compressed version of the assets here instead](https://mega.nz/file/gQwDULaJ#rdS4_qkBaTA7i9y87lAO4z3ZJBi0MvlG5jz5-sf_o4M))
 
 Put it into the repository `Assets` folder, and you should be good to go to open this with FMOD Studio!
 
