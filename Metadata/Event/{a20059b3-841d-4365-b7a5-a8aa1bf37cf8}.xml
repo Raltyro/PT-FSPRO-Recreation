@@ -4,8 +4,7 @@
 		<property name="note">
 			<value>PERSISTENT IS NEEDED SO THE INSTANCE WONT GET AUTOMATICALLY DELETED ITSELF INGAME WHEN IT ENDS ON SUSTAIN POINTS
 
-BTW The loop on It's Pizza Time! actually starts on beats 
-32, but it's uncomforting to hear it so i just put it in beats 72, if anyone want to change it, there you go</value>
+</value>
 		</property>
 		<property name="name">
 			<value>pizzatime</value>
@@ -36,6 +35,8 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{5690ad42-c70a-4c99-a521-0c045134cbe3}</destination>
 		</relationship>
 		<relationship name="markerTracks">
+			<destination>{4201ba83-4a23-419c-94ac-3013675df4fa}</destination>
+			<destination>{8855bf07-910b-4af2-86cd-bcb203f14dff}</destination>
 			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
 			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
 			<destination>{0114bcc5-0635-45ff-ad3a-68df8b4c07e8}</destination>
@@ -59,12 +60,10 @@ BTW The loop on It's Pizza Time! actually starts on beats
 		<relationship name="modules">
 			<destination>{2359d56c-236d-4448-a162-b075c5550d9f}</destination>
 			<destination>{78f6ecc8-4736-493f-ab9b-7dc605940086}</destination>
-			<destination>{911a923d-b005-4b75-8371-ba000ca7061c}</destination>
-			<destination>{396e7a42-23b4-4ce8-a823-faf4cd1dec62}</destination>
-			<destination>{aa752d5d-d3f3-49ce-aeb0-7368597e0a6d}</destination>
-			<destination>{a4f904a0-275f-4e39-97c3-1269b178eeb2}</destination>
 			<destination>{bcfa3bb0-6563-4f83-b0a6-14b2337163d2}</destination>
 			<destination>{3b923c50-e5d6-4d17-a366-effa6859a1ad}</destination>
+			<destination>{898e8b54-5c1a-4a3a-8285-afea33995308}</destination>
+			<destination>{cf6adaf9-c3e7-4957-b481-8bebbd875186}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{81b54e92-af0d-4042-a49d-82313595d087}</destination>
@@ -89,21 +88,23 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<value>62</value>
 		</property>
 	</object>
+	<object class="MarkerTrack" id="{4201ba83-4a23-419c-94ac-3013675df4fa}" />
+	<object class="MarkerTrack" id="{8855bf07-910b-4af2-86cd-bcb203f14dff}" />
 	<object class="MarkerTrack" id="{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}" />
 	<object class="MarkerTrack" id="{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}" />
 	<object class="MarkerTrack" id="{0114bcc5-0635-45ff-ad3a-68df8b4c07e8}" />
 	<object class="GroupTrack" id="{5071af4f-46e1-4138-86c3-a9e33fd0ed95}">
 		<relationship name="modules">
-			<destination>{20c9e53d-e088-4892-b33f-87e8f314b46c}</destination>
-			<destination>{49f9b229-d012-4b0e-90a4-804222448bdd}</destination>
-			<destination>{90242563-9ba0-4799-9cac-fb9ca0f69fc5}</destination>
-			<destination>{841a5dac-2429-49f9-85ee-b41d7cb4b28d}</destination>
 			<destination>{69f71e29-2d78-444e-81b6-99ee5076892f}</destination>
 			<destination>{05e7ed2d-67e6-4d9c-824b-cabfcd090fc3}</destination>
 			<destination>{3bafa8c2-ec4e-472b-ac1c-8e81c0096752}</destination>
 			<destination>{01cac194-e5ae-4150-a8b1-b1dc8cf4b119}</destination>
 			<destination>{cf4d7292-d339-4440-9178-05901a18bef1}</destination>
 			<destination>{9ba1b9f7-e481-4ed2-a0bf-a847ea6a9701}</destination>
+			<destination>{5fa77506-eef8-4547-9482-8b4967dd4866}</destination>
+			<destination>{2ec64950-9ee1-44c6-a7d2-2bb561596d0f}</destination>
+			<destination>{fb36efa2-aa4c-4869-a065-f5f818e77543}</destination>
+			<destination>{b692f820-35f6-4561-9434-6ee029db9ed1}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{de980ddd-80bf-4f06-bc55-5cc98ced9321}</destination>
@@ -113,9 +114,10 @@ BTW The loop on It's Pizza Time! actually starts on beats
 		<relationship name="modules">
 			<destination>{cf4d7292-d339-4440-9178-05901a18bef1}</destination>
 			<destination>{9ba1b9f7-e481-4ed2-a0bf-a847ea6a9701}</destination>
+			<destination>{5fa77506-eef8-4547-9482-8b4967dd4866}</destination>
+			<destination>{2ec64950-9ee1-44c6-a7d2-2bb561596d0f}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{d98adce1-b134-421b-94e0-0b2135ffa98e}</destination>
 			<destination>{78ae6852-a86a-49d9-82a3-8de17c12ffb6}</destination>
 			<destination>{849807de-c075-4b85-9e21-e2f3210f6199}</destination>
 			<destination>{f1016645-1c98-44e9-9001-eb5b26a9ade4}</destination>
@@ -124,9 +126,19 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{7d0a7841-79a1-47e1-9880-b6e5ec5f5367}</destination>
 			<destination>{a724ec79-193d-4971-9cd1-f618006fec64}</destination>
 			<destination>{164bd196-c5a9-470d-a96a-ea11f7a223f6}</destination>
-			<destination>{ce56d362-bf23-4898-89bd-56c1ca93b8f2}</destination>
 			<destination>{f1ec5a38-64ae-475d-a776-ae692951b10f}</destination>
 			<destination>{76544465-c5cf-4b14-8200-45c28356b94a}</destination>
+			<destination>{22083d29-7672-4498-a968-9e03adec9cb4}</destination>
+			<destination>{0760cbf1-477c-445f-9a8a-ed8d93092ea2}</destination>
+			<destination>{89f9a81a-5d42-4791-a7dd-5f01f7835edf}</destination>
+			<destination>{baa845f8-c8e7-49cb-9e2b-4ad4752d06a7}</destination>
+			<destination>{38f8f7f1-612d-4719-8ad8-bc51ffab7128}</destination>
+			<destination>{bf34a446-b29d-4f39-9623-26c867f8eeea}</destination>
+			<destination>{f2dcedd2-2262-4dd7-8fc9-76798dc3e1bc}</destination>
+			<destination>{5d6454eb-48c9-45bd-98f9-4a050fdb8c90}</destination>
+			<destination>{216a3151-7924-4a1c-b985-ffc4229134d4}</destination>
+			<destination>{502758c1-8a2d-429c-b400-b014a9c0f569}</destination>
+			<destination>{6b0ca008-524b-4472-ad8a-bc996c1ecd8b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{81b54e92-af0d-4042-a49d-82313595d087}">
@@ -153,32 +165,6 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<value>0</value>
 		</property>
 	</object>
-	<object class="TransitionSourceSound" id="{911a923d-b005-4b75-8371-ba000ca7061c}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{396e7a42-23b4-4ce8-a823-faf4cd1dec62}">
-		<property name="start">
-			<value>1.7999999999999998</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionSourceSound" id="{aa752d5d-d3f3-49ce-aeb0-7368597e0a6d}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{a4f904a0-275f-4e39-97c3-1269b178eeb2}">
-		<property name="start">
-			<value>0.33333333333333326</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="TransitionSourceSound" id="{bcfa3bb0-6563-4f83-b0a6-14b2337163d2}">
 		<property name="length">
 			<value>0</value>
@@ -186,8 +172,21 @@ BTW The loop on It's Pizza Time! actually starts on beats
 	</object>
 	<object class="TransitionDestinationSound" id="{3b923c50-e5d6-4d17-a366-effa6859a1ad}">
 		<property name="start">
-			<value>2.4000000000000004</value>
+			<value>0.4500000000000004</value>
 		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{898e8b54-5c1a-4a3a-8285-afea33995308}">
+		<property name="start">
+			<value>4.7999999999999998</value>
+		</property>
+		<property name="length">
+			<value>2.2204460492503131e-16</value>
+		</property>
+	</object>
+	<object class="TransitionSourceSound" id="{cf6adaf9-c3e7-4957-b481-8bebbd875186}">
 		<property name="length">
 			<value>0</value>
 		</property>
@@ -198,38 +197,6 @@ BTW The loop on It's Pizza Time! actually starts on beats
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1729285c-b4d2-4101-95be-2596429dab36}" />
-	<object class="TransitionSourceSound" id="{20c9e53d-e088-4892-b33f-87e8f314b46c}">
-		<property name="length">
-			<value>1.7999999999999998</value>
-		</property>
-		<relationship name="fadeOutCurve">
-			<destination>{a4f7ea54-f4f1-4f1d-bb28-c4b94fbf2303}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationSound" id="{49f9b229-d012-4b0e-90a4-804222448bdd}">
-		<property name="length">
-			<value>1.7999999999999998</value>
-		</property>
-	</object>
-	<object class="TransitionSourceSound" id="{90242563-9ba0-4799-9cac-fb9ca0f69fc5}">
-		<property name="length">
-			<value>0.33333333333333326</value>
-		</property>
-		<relationship name="fadeOutCurve">
-			<destination>{072fb785-e496-40be-942e-d3f74f781845}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationSound" id="{841a5dac-2429-49f9-85ee-b41d7cb4b28d}">
-		<property name="start">
-			<value>2.7755575615628914e-17</value>
-		</property>
-		<property name="length">
-			<value>0.33333333333333326</value>
-		</property>
-		<relationship name="fadeInCurve">
-			<destination>{880461d5-253c-4383-9543-502b05d9985e}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionSourceSound" id="{69f71e29-2d78-444e-81b6-99ee5076892f}">
 		<property name="length">
 			<value>4.7999999999999998</value>
@@ -248,16 +215,19 @@ BTW The loop on It's Pizza Time! actually starts on beats
 	</object>
 	<object class="TransitionSourceSound" id="{3bafa8c2-ec4e-472b-ac1c-8e81c0096752}">
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.44999999999999996</value>
 		</property>
 		<relationship name="fadeOutCurve">
-			<destination>{647a69f3-30ec-4bec-9b4b-5a74d0322cdd}</destination>
+			<destination>{9f0d92d0-e597-42ce-badd-2333c83f6e05}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionDestinationSound" id="{01cac194-e5ae-4150-a8b1-b1dc8cf4b119}">
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>2.4000000000000021</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{3bc8e8db-2995-481c-a61c-abb907f806f8}</destination>
+		</relationship>
 	</object>
 	<object class="SingleSound" id="{cf4d7292-d339-4440-9178-05901a18bef1}">
 		<property name="length">
@@ -275,7 +245,7 @@ BTW The loop on It's Pizza Time! actually starts on beats
 	</object>
 	<object class="SingleSound" id="{9ba1b9f7-e481-4ed2-a0bf-a847ea6a9701}">
 		<property name="start">
-			<value>228.70108892374515</value>
+			<value>265</value>
 		</property>
 		<property name="length">
 			<value>176.87637389624723</value>
@@ -288,6 +258,45 @@ BTW The loop on It's Pizza Time! actually starts on beats
 		</property>
 		<relationship name="audioFile">
 			<destination>{fd7f311b-d180-4a1a-8d15-2fd7559d8611}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{5fa77506-eef8-4547-9482-8b4967dd4866}">
+		<property name="start">
+			<value>719</value>
+		</property>
+		<property name="length">
+			<value>141.24625</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{0d6085fd-2ef0-4ec2-a7a3-aef2141e003c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{2ec64950-9ee1-44c6-a7d2-2bb561596d0f}">
+		<property name="start">
+			<value>459</value>
+		</property>
+		<property name="length">
+			<value>205.54270833333334</value>
+		</property>
+		<property name="name" />
+		<relationship name="audioFile">
+			<destination>{ccf2cc5c-053c-4c5e-bd8f-d66ed0670710}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionDestinationSound" id="{fb36efa2-aa4c-4869-a065-f5f818e77543}">
+		<property name="length">
+			<value>4.7999999999999989</value>
+		</property>
+		<relationship name="fadeInCurve">
+			<destination>{1561fdc7-1d68-4f2b-8dd6-cf184201cd37}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{b692f820-35f6-4561-9434-6ee029db9ed1}">
+		<property name="length">
+			<value>4.7999999999999998</value>
+		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{33f658e6-a779-462d-be6b-e4efc84e4648}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{de980ddd-80bf-4f06-bc55-5cc98ced9321}">
@@ -304,26 +313,6 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{81b54e92-af0d-4042-a49d-82313595d087}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{d98adce1-b134-421b-94e0-0b2135ffa98e}">
-		<property name="position">
-			<value>101.24626187388465</value>
-		</property>
-		<property name="length">
-			<value>69.333333333333329</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{4a6bbbdd-071a-456d-b8ac-84c431f069e9}</destination>
-		</relationship>
-		<relationship name="transitionTimeline">
-			<destination>{13a93d33-f17e-4486-b422-9d892fdf0da8}</destination>
-		</relationship>
-	</object>
 	<object class="TempoMarker" id="{78ae6852-a86a-49d9-82a3-8de17c12ffb6}">
 		<property name="position">
 			<value>15.912928540551325</value>
@@ -335,7 +324,7 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
 		</relationship>
 	</object>
 	<object class="TempoMarker" id="{849807de-c075-4b85-9e21-e2f3210f6199}">
@@ -349,7 +338,7 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+			<destination>{8855bf07-910b-4af2-86cd-bcb203f14dff}</destination>
 		</relationship>
 	</object>
 	<object class="TempoMarker" id="{f1016645-1c98-44e9-9001-eb5b26a9ade4}">
@@ -363,7 +352,7 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+			<destination>{8855bf07-910b-4af2-86cd-bcb203f14dff}</destination>
 		</relationship>
 	</object>
 	<object class="TempoMarker" id="{da99cacd-6be0-47d6-8d77-deed921d442a}">
@@ -377,7 +366,7 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
 		</relationship>
 	</object>
 	<object class="NamedMarker" id="{65a3fecd-aec4-4d74-8cfd-a62d968e76d7}">
@@ -385,13 +374,13 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<value>170.57959520721798</value>
 		</property>
 		<property name="name">
-			<value>skip</value>
+			<value>PT Time</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionRegion" id="{7d0a7841-79a1-47e1-9880-b6e5ec5f5367}">
@@ -420,7 +409,7 @@ BTW The loop on It's Pizza Time! actually starts on beats
 	</object>
 	<object class="TempoMarker" id="{a724ec79-193d-4971-9cd1-f618006fec64}">
 		<property name="position">
-			<value>228.70108892374515</value>
+			<value>264.9751655629139</value>
 		</property>
 		<property name="tempo">
 			<value>151.5</value>
@@ -429,12 +418,12 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+			<destination>{8855bf07-910b-4af2-86cd-bcb203f14dff}</destination>
 		</relationship>
 	</object>
 	<object class="TempoMarker" id="{164bd196-c5a9-470d-a96a-ea11f7a223f6}">
 		<property name="position">
-			<value>250.8862399822288</value>
+			<value>287.16031662139761</value>
 		</property>
 		<property name="tempo">
 			<value>180</value>
@@ -446,35 +435,12 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{ce56d362-bf23-4898-89bd-56c1ca93b8f2}">
-		<property name="position">
-			<value>228.70108892374515</value>
-		</property>
-		<property name="length">
-			<value>171.518484391817</value>
-		</property>
-		<property name="looping">
-			<value>2</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{0114bcc5-0635-45ff-ad3a-68df8b4c07e8}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{b0631aad-8c63-4cd8-a053-afe4056379ff}</destination>
-		</relationship>
-		<relationship name="transitionTimeline">
-			<destination>{34b02463-06e4-448a-a2d9-c81a72f4767f}</destination>
-		</relationship>
-	</object>
 	<object class="LoopRegion" id="{f1ec5a38-64ae-475d-a776-ae692951b10f}">
 		<property name="position">
-			<value>250.8862399822288</value>
+			<value>289.8269832880643</value>
 		</property>
 		<property name="length">
-			<value>149.33333333333334</value>
+			<value>146.6666666666666</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
@@ -488,7 +454,121 @@ BTW The loop on It's Pizza Time! actually starts on beats
 	</object>
 	<object class="SustainPoint" id="{76544465-c5cf-4b14-8200-45c28356b94a}">
 		<property name="position">
-			<value>228.70108892374515</value>
+			<value>235</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8855bf07-910b-4af2-86cd-bcb203f14dff}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{b2348556-aab5-47fb-a5ab-52ea322bbc7e}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{22083d29-7672-4498-a968-9e03adec9cb4}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>438.40000000000003</value>
+		</property>
+		<property name="transitionOffset">
+			<value>1</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{4201ba83-4a23-419c-94ac-3013675df4fa}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{d8429686-c29a-4a76-b43e-b44fa4b87ff8}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{0760cbf1-477c-445f-9a8a-ed8d93092ea2}">
+		<property name="position">
+			<value>459</value>
+		</property>
+		<property name="length">
+			<value>436.49364995473093</value>
+		</property>
+		<property name="transitionOffset">
+			<value>1</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{4201ba83-4a23-419c-94ac-3013675df4fa}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{2727497b-9044-4fe6-80f4-d2321d9f57cc}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{89f9a81a-5d42-4791-a7dd-5f01f7835edf}">
+		<property name="position">
+			<value>719</value>
+		</property>
+		<property name="name">
+			<value>WWN Begin</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{0114bcc5-0635-45ff-ad3a-68df8b4c07e8}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionRegion" id="{baa845f8-c8e7-49cb-9e2b-4ad4752d06a7}">
+		<property name="position">
+			<value>856.6061621824831</value>
+		</property>
+		<property name="length">
+			<value>38.887487772247823</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{0114bcc5-0635-45ff-ad3a-68df8b4c07e8}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{89f9a81a-5d42-4791-a7dd-5f01f7835edf}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionRegion" id="{38f8f7f1-612d-4719-8ad8-bc51ffab7128}">
+		<property name="position">
+			<value>459</value>
+		</property>
+		<property name="length">
+			<value>260</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{89f9a81a-5d42-4791-a7dd-5f01f7835edf}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{ba3ce8d1-1017-4213-b1c7-1e0ec3dbe003}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{bf34a446-b29d-4f39-9623-26c867f8eeea}">
+		<property name="position">
+			<value>593</value>
+		</property>
+		<property name="name">
+			<value>DA Time</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
@@ -496,8 +576,88 @@ BTW The loop on It's Pizza Time! actually starts on beats
 		<relationship name="markerTrack">
 			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionRegion" id="{f2dcedd2-2262-4dd7-8fc9-76798dc3e1bc}">
+		<property name="position">
+			<value>459</value>
+		</property>
+		<property name="length">
+			<value>134.00000000000003</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{0114bcc5-0635-45ff-ad3a-68df8b4c07e8}</destination>
+		</relationship>
+		<relationship name="transitionTimeline">
+			<destination>{c9524416-d3ce-47fd-a1ac-d6d9f764403c}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{bf34a446-b29d-4f39-9623-26c867f8eeea}</destination>
+		</relationship>
 		<relationship name="triggerConditions">
-			<destination>{b2348556-aab5-47fb-a5ab-52ea322bbc7e}</destination>
+			<destination>{1e53f5ae-6ab8-4f5b-93c3-a28d373efa5f}</destination>
+			<destination>{8d7e01c2-0439-4aa6-8cf7-f4db5d42ec84}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{5d6454eb-48c9-45bd-98f9-4a050fdb8c90}">
+		<property name="position">
+			<value>264.9751655629139</value>
+		</property>
+		<property name="name">
+			<value>TDID Begin</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{0114bcc5-0635-45ff-ad3a-68df8b4c07e8}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionRegion" id="{216a3151-7924-4a1c-b985-ffc4229134d4}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>264.9751655629139</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{201a9b95-ba0c-452f-a6a1-125c0c2cfdd2}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{5d6454eb-48c9-45bd-98f9-4a050fdb8c90}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{79843e80-00b9-438a-8407-80302635d3ef}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{502758c1-8a2d-429c-b400-b014a9c0f569}">
+		<property name="position">
+			<value>719</value>
+		</property>
+		<property name="length">
+			<value>137.6061621824831</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
+		</relationship>
+	</object>
+	<object class="SustainPoint" id="{6b0ca008-524b-4472-ad8a-bc996c1ecd8b}">
+		<property name="position">
+			<value>704</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b6a22285-624e-4ca7-b54a-e1fc1e253114}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{fe0f57ee-eb4f-42e9-a792-371a8f6c3f6c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{0fa24223-2c4b-42cb-b782-f0fccaaf26e1}">
@@ -507,39 +667,6 @@ BTW The loop on It's Pizza Time! actually starts on beats
 	</object>
 	<object class="MixerBusPanner" id="{c48429d1-0f4f-44ce-bd08-42c2a1a5422c}" />
 	<object class="MixerBusFader" id="{37d6c279-dee9-44da-9f4d-31d70d148f48}" />
-	<object class="TransitionSourceFadeOutCurve" id="{a4f7ea54-f4f1-4f1d-bb28-c4b94fbf2303}">
-		<relationship name="startPoint">
-			<destination>{2e2362bd-eb5a-473a-8aa7-73fe4b0a5409}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{aa881362-915c-4d52-b047-0f0d88ecc319}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{49f9b229-d012-4b0e-90a4-804222448bdd}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionSourceFadeOutCurve" id="{072fb785-e496-40be-942e-d3f74f781845}">
-		<relationship name="startPoint">
-			<destination>{4b4a78e5-2f2f-4995-a9a2-3b5f890aef97}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{c1ef5760-6841-4efe-b0e3-40c7a6e449e8}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{841a5dac-2429-49f9-85ee-b41d7cb4b28d}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationFadeInCurve" id="{880461d5-253c-4383-9543-502b05d9985e}">
-		<relationship name="startPoint">
-			<destination>{20c31e00-6abe-49b8-ba30-7d2078be91d3}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{2bce8fd4-9a4d-406a-8df2-5e0e37107b4d}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{90242563-9ba0-4799-9cac-fb9ca0f69fc5}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{a8b5940b-a976-4b6f-9e11-448a0542030a}">
 		<relationship name="startPoint">
 			<destination>{535181af-d3d4-486d-8409-7162e2cf3696}</destination>
@@ -559,15 +686,45 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{19243d29-5329-49cf-9169-e2a2762bc45f}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceFadeOutCurve" id="{647a69f3-30ec-4bec-9b4b-5a74d0322cdd}">
+	<object class="TransitionSourceFadeOutCurve" id="{9f0d92d0-e597-42ce-badd-2333c83f6e05}">
 		<relationship name="startPoint">
-			<destination>{115e5cc8-b1f1-442b-b4ae-e5407e5b3778}</destination>
+			<destination>{83ffafde-3303-4e5e-9bcc-63c41511bb37}</destination>
 		</relationship>
 		<relationship name="endPoint">
-			<destination>{9e6528a0-c174-4388-96fe-b33d0008a239}</destination>
+			<destination>{4179d566-e9c9-4cbf-8c76-68f62b724532}</destination>
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{01cac194-e5ae-4150-a8b1-b1dc8cf4b119}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionDestinationFadeInCurve" id="{3bc8e8db-2995-481c-a61c-abb907f806f8}">
+		<relationship name="startPoint">
+			<destination>{428b1b9b-8802-4802-8fff-09609d0548b7}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{0caa0c09-a074-4538-9d49-9d0dceacbbf1}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{3bafa8c2-ec4e-472b-ac1c-8e81c0096752}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionDestinationFadeInCurve" id="{1561fdc7-1d68-4f2b-8dd6-cf184201cd37}">
+		<relationship name="startPoint">
+			<destination>{4ace8733-4559-4388-ad6a-23955119e21d}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{b7dbdc0b-5226-498a-adf7-6b7e0d246498}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionSourceFadeOutCurve" id="{33f658e6-a779-462d-be6b-e4efc84e4648}">
+		<relationship name="startPoint">
+			<destination>{806ff465-0ed4-47ba-92fc-d2cba62e64b9}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{c5ff4d7c-6db4-48a2-a402-01f0c8d5043e}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{fb36efa2-aa4c-4869-a065-f5f818e77543}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{bd04e04a-45cf-4164-a23e-985e150d94f4}">
@@ -576,28 +733,6 @@ BTW The loop on It's Pizza Time! actually starts on beats
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{58f2a27a-79e2-4912-b8a6-9742a0b3fc5d}" />
-	<object class="ParameterCondition" id="{4a6bbbdd-071a-456d-b8ac-84c431f069e9}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionTimeline" id="{13a93d33-f17e-4486-b422-9d892fdf0da8}">
-		<property name="length">
-			<value>0.33333333333333326</value>
-		</property>
-		<relationship name="modules">
-			<destination>{aa752d5d-d3f3-49ce-aeb0-7368597e0a6d}</destination>
-			<destination>{a4f904a0-275f-4e39-97c3-1269b178eeb2}</destination>
-			<destination>{90242563-9ba0-4799-9cac-fb9ca0f69fc5}</destination>
-			<destination>{841a5dac-2429-49f9-85ee-b41d7cb4b28d}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionTimeline" id="{01544abf-8ce0-4f78-8b7d-88165337b28c}">
 		<property name="length">
 			<value>4.7999999999999998</value>
@@ -637,31 +772,9 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterCondition" id="{b0631aad-8c63-4cd8-a053-afe4056379ff}">
-		<property name="minimum">
-			<value>2</value>
-		</property>
-		<property name="maximum">
-			<value>2</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionTimeline" id="{34b02463-06e4-448a-a2d9-c81a72f4767f}">
-		<property name="length">
-			<value>1.7999999999999998</value>
-		</property>
-		<relationship name="modules">
-			<destination>{911a923d-b005-4b75-8371-ba000ca7061c}</destination>
-			<destination>{396e7a42-23b4-4ce8-a823-faf4cd1dec62}</destination>
-			<destination>{20c9e53d-e088-4892-b33f-87e8f314b46c}</destination>
-			<destination>{49f9b229-d012-4b0e-90a4-804222448bdd}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionTimeline" id="{6ef4daee-420c-4cdf-89cb-3907a1c10c9a}">
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.44999999999999996</value>
 		</property>
 		<relationship name="modules">
 			<destination>{bcfa3bb0-6563-4f83-b0a6-14b2337163d2}</destination>
@@ -684,64 +797,99 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterCondition" id="{d8429686-c29a-4a76-b43e-b44fa4b87ff8}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{2727497b-9044-4fe6-80f4-d2321d9f57cc}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{ba3ce8d1-1017-4213-b1c7-1e0ec3dbe003}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionTimeline" id="{c9524416-d3ce-47fd-a1ac-d6d9f764403c}">
+		<property name="length">
+			<value>4.7999999999999998</value>
+		</property>
+		<relationship name="modules">
+			<destination>{cf6adaf9-c3e7-4957-b481-8bebbd875186}</destination>
+			<destination>{898e8b54-5c1a-4a3a-8285-afea33995308}</destination>
+			<destination>{b692f820-35f6-4561-9434-6ee029db9ed1}</destination>
+			<destination>{fb36efa2-aa4c-4869-a065-f5f818e77543}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{1e53f5ae-6ab8-4f5b-93c3-a28d373efa5f}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{8d7e01c2-0439-4aa6-8cf7-f4db5d42ec84}">
+		<property name="minimum">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{79843e80-00b9-438a-8407-80302635d3ef}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{8b6e78ae-95b1-4dfe-a5c4-92ddb6c4dd7d}" />
-	<object class="AutomationPoint" id="{2e2362bd-eb5a-473a-8aa7-73fe4b0a5409}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.539443791</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{aa881362-915c-4d52-b047-0f0d88ecc319}">
-		<property name="position">
-			<value>1.7999999999999998</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{4b4a78e5-2f2f-4995-a9a2-3b5f890aef97}">
-		<property name="position">
-			<value>2.7755575615628914e-17</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-		<property name="curveShape">
-			<value>0.25471893</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{c1ef5760-6841-4efe-b0e3-40c7a6e449e8}">
-		<property name="position">
-			<value>0.33333333333333326</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{20c31e00-6abe-49b8-ba30-7d2078be91d3}">
-		<property name="position">
-			<value>2.7755575615628914e-17</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.2547189</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{2bce8fd4-9a4d-406a-8df2-5e0e37107b4d}">
-		<property name="position">
-			<value>0.33333333333333326</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{535181af-d3d4-486d-8409-7162e2cf3696}">
 		<property name="position">
 			<value>0</value>
@@ -780,7 +928,7 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<value>1</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{115e5cc8-b1f1-442b-b4ae-e5407e5b3778}">
+	<object class="AutomationPoint" id="{83ffafde-3303-4e5e-9bcc-63c41511bb37}">
 		<property name="position">
 			<value>0</value>
 		</property>
@@ -791,9 +939,66 @@ BTW The loop on It's Pizza Time! actually starts on beats
 			<value>1</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{9e6528a0-c174-4388-96fe-b33d0008a239}">
+	<object class="AutomationPoint" id="{4179d566-e9c9-4cbf-8c76-68f62b724532}">
 		<property name="position">
-			<value>2.3999999999999999</value>
+			<value>0.44999999999999996</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{428b1b9b-8802-4802-8fff-09609d0548b7}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-1.00000048</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{0caa0c09-a074-4538-9d49-9d0dceacbbf1}">
+		<property name="position">
+			<value>0.44999999999999996</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{4ace8733-4559-4388-ad6a-23955119e21d}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-1.00000048</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{b7dbdc0b-5226-498a-adf7-6b7e0d246498}">
+		<property name="position">
+			<value>4.7999999999999989</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{806ff465-0ed4-47ba-92fc-d2cba62e64b9}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.0810825899</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{c5ff4d7c-6db4-48a2-a402-01f0c8d5043e}">
+		<property name="position">
+			<value>4.7999999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>
