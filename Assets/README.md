@@ -4,11 +4,23 @@ The assets folder have to be stored like this
 ```
 Assets/music
 Assets/sfx
-Assets/modname/music
-Assets/modname/sfx
 ```
 
-To extract Pizza Tower Assets, you'll have to use the [Unofficial FMOD Banks Tool](https://gamebanana.com/tools/12100)
-([or you can grab the compressed version of the assets here instead](https://mega.nz/file/gQwDULaJ#rdS4_qkBaTA7i9y87lAO4z3ZJBi0MvlG5jz5-sf_o4M))
+To get the Assets, you can get one [this here from a seperate github repository!]() (TODO: made one)
+This is for in order to avoid bunch of shit in the commits
+NOTE: The Assets here probably still missing some of the assets, and the intents are for to have the complete raw assets instead of ripping the assets
+
+Or if you want to get one yourself, you can extract it using the [Unofficial FMOD Banks Tool](https://gamebanana.com/tools/12100)
+**BUT** you might have to rename all of the file extension names to ogg first!
+(TODO: make an automated pythgon script to do this)
 
 Put it into the repository Assets folder, and you should be good to go to open this with FMOD Studio!
+
+For your mod, you can name the folder names like this! (or you can do it freely as you one tbh)
+```
+Assets/your-modname/music
+Assets/your-modname/sfx
+```
+
+Just incase if you want to sync the Assets while keeping your modded assets from your mod asset folder
+You can make use of directory links on the commant prompt/terminal (mklink, etc)
