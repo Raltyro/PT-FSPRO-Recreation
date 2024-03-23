@@ -8,6 +8,7 @@ Assets/sfx
 
 To get the Assets, you can get one [this here from a seperate github repository!]() (TODO: made one)
 This is for in order to avoid bunch of shit in the commits
+NOTE: The Assets here probably still missing some of the assets, and the intents are for to have the complete raw assets instead of ripping the assets
 
 Or if you want to get one yourself, you can extract it using the [Unofficial FMOD Banks Tool](https://gamebanana.com/tools/12100)
 **BUT** you might have to rename all of the file extension names to ogg first!
