@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{c391630a-4ff0-49a9-b47f-74e1229a1698}">
+		<property name="name">
+			<value>Pitch Randomizer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c9033773-2324-4d8e-b2a7-9ed7f07f3acc}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{c53a578f-4f8d-4011-bed7-5d4747d5411a}</destination>
+		</relationship>
+	</object>
+	<object class="PitchShifterEffect" id="{c53a578f-4f8d-4011-bed7-5d4747d5411a}">
+		<property name="pitch">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{3910b2eb-146d-4ee3-980b-e732c4717c5b}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{3910b2eb-146d-4ee3-980b-e732c4717c5b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>30</value>
+		</property>
+	</object>
+</objects>
