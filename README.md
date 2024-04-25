@@ -42,6 +42,7 @@ any Pull Requests that doesn't do this will be ignored/held for reviews until it
 * [SlawekNowy](https://github.com/SlawekNowy) - Contributions on helping to make linking this fspro with PT original banks possible (Exporting the GUIDs)
 * [MeliaDev](https://github.com/MeliaDev) ([Gamebanana](https://gamebanana.com/members/2657982), [Twitter](https://twitter.com/darkdagirl)) - Contributions help on adding events
 * [thecubitosishere](https://github.com/thecubitoishere)  ([Gamebanana](https://gamebanana.com/members/2513917), [Twitter](https://twitter.com/TheCubitoIsHere))- Contributions help on adding events
+* [WardzzXDD](https://github.com/WardzzXDD)  ([Gamebanana](https://gamebanana.com/members/2604754) - I fix stuff 
 
 Without these Contributors, this project wouldn't be possible without them!
 Thank you everyone for those who contributes this project!
