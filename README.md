@@ -1,5 +1,5 @@
 # Pizza Tower FMOD Studio Project Recreation Modified
-[![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://gamebanana.com/tools/13432)
+[![PT FSPRO Repository Image](.github/readme/modified-thumbnail.jpeg)](https://gamebanana.com/tools/16767)
 
 This project/tool aims to be atleast somewhat 1:1 recreation and to make improvements/fixes to Pizza Tower sounds,
 while making them easier to mod in the sounds by just opening this with FMOD Studio instead of using other unofficial tools,
