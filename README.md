@@ -4,7 +4,7 @@
 A fork of PT-FSPRO-Recreation, fixing inaccuracies and stuff.
 
 To start with this, read the wiki here!  
-https://github.com/Raltyro/PT-FSPRO-Recreation/wiki
+https://github.com/WardzzXDD/PT-FSPRO-Recreation-Modified/wiki
 
 ## Opening the project
 First of all, the program that needs to open this is [FMOD Studio](https://www.fmod.com) (which what Pizza Tower uses for it's sounds),
