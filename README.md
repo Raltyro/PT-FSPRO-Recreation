@@ -1,10 +1,18 @@
-# Pizza Tower FMOD Studio Project Recreation Modified
-[![PT FSPRO Repository Image](.github/readme/modified-thumbnail.jpeg)](https://gamebanana.com/tools/16767)
+# Pizza Tower FMOD Studio Project Recreation
 
-A fork of PT-FSPRO-Recreation, fixing inaccuracies and stuff.
+[![Open Issues](https://badgen.net/github/open-issues/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/issues)
+[![Open Pull Requests](https://badgen.net/github/open-prs/Raltyro/Pizza-Tower-fspro-Recreation)](https://github.com/Raltyro/Pizza-Tower-fspro-Recreation/pulls)
+[![License](https://img.shields.io/github/license/Raltyro/Pizza-Tower-fspro-Recreation?logo=github)](LICENSE.txt)
+[![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.00%20-%202.02.17/orange)](https://www.fmod.com)
+
+[![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://gamebanana.com/tools/13432)
+
+This project/tool aims to be atleast somewhat 1:1 recreation and to make improvements/fixes to Pizza Tower sounds,
+while making them easier to mod in the sounds by just opening this with FMOD Studio instead of using other unofficial tools,
+allowing for any custom events/sounds/groups/etc to be able being added in the game!
 
 To start with this, read the wiki here!  
-https://github.com/WardzzXDD/PT-FSPRO-Recreation-Modified/wiki
+https://github.com/Raltyro/PT-FSPRO-Recreation/wiki
 
 ## Opening the project
 First of all, the program that needs to open this is [FMOD Studio](https://www.fmod.com) (which what Pizza Tower uses for it's sounds),
@@ -34,7 +42,6 @@ any Pull Requests that doesn't do this will be ignored/held for reviews until it
 * [SlawekNowy](https://github.com/SlawekNowy) - Contributions on helping to make linking this fspro with PT original banks possible (Exporting the GUIDs)
 * [MeliaDev](https://github.com/MeliaDev) ([Gamebanana](https://gamebanana.com/members/2657982), [Twitter](https://twitter.com/darkdagirl)) - Contributions help on adding events
 * [thecubitosishere](https://github.com/thecubitoishere)  ([Gamebanana](https://gamebanana.com/members/2513917), [Twitter](https://twitter.com/TheCubitoIsHere))- Contributions help on adding events
-* [WardzzXDD](https://github.com/WardzzXDD)  ([Gamebanana](https://gamebanana.com/members/2604754)) - I fix stuff 
 
 Without these Contributors, this project wouldn't be possible without them!
 Thank you everyone for those who contributes this project!
