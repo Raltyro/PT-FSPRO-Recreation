@@ -91,6 +91,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b06aa6b4-23e3-4084-bb11-f93136710b28}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{b1356cee-ba46-4070-9408-6919bf985740}</destination>
 		</relationship>
@@ -111,9 +114,6 @@
 		<property name="length">
 			<value>1.4497916666666666</value>
 		</property>
-		<property name="volume">
-			<value>-12</value>
-		</property>
 		<relationship name="sounds">
 			<destination>{ada88941-715e-4b21-ab2b-18ef1af77317}</destination>
 			<destination>{1c958993-ee0c-415e-bade-84d715d68112}</destination>
@@ -122,9 +122,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ac6646fd-0be0-4788-9810-e576dc0299bb}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -145,9 +142,6 @@
 		<property name="length">
 			<value>1.4497916666666666</value>
 		</property>
-		<property name="volume">
-			<value>-12</value>
-		</property>
 		<relationship name="sounds">
 			<destination>{34043467-7498-4f32-bfdf-5710bd877608}</destination>
 			<destination>{951bd9b5-3c6f-426a-8ebe-9a484e0c3b50}</destination>
@@ -156,9 +150,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b390a82e-8cb5-47ac-adcc-719df0a7636e}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -176,6 +167,9 @@
 		<property name="position">
 			<value>0</value>
 		</property>
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{a68e6ea6-8d30-4404-b25b-11bdb201ce3f}</destination>
 		</relationship>
@@ -187,6 +181,7 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{6049644c-13b3-40bc-b480-5acb0c32a677}</destination>
+			<destination>{ee9c0795-0ae1-4328-95d3-cb077142a8b4}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionMarker" id="{4c75cdb1-2341-4640-8b88-efd884318c94}">
@@ -304,6 +299,17 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{ee9c0795-0ae1-4328-95d3-cb077142a8b4}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{9eee3d77-375f-4b7b-9b69-a526a16611c3}">
