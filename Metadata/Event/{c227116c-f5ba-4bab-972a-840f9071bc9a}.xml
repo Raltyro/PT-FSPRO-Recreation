@@ -76,6 +76,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{31d06763-61b5-45ee-acac-4447c8264c34}">
+		<relationship name="automators">
+			<destination>{2a959d22-5e6a-48f7-afa7-ba7be0a9eebf}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{6fbf6daa-92ed-4fa5-98cd-98f79f3477f7}</destination>
 		</relationship>
@@ -97,6 +100,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a9be5e2f-81b3-4d38-aa87-2f5d436a946d}" />
+	<object class="Automator" id="{2a959d22-5e6a-48f7-afa7-ba7be0a9eebf}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{72c0ec2e-04d3-4561-a595-df6ce02755ac}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{6fbf6daa-92ed-4fa5-98cd-98f79f3477f7}">
 		<relationship name="effects">
 			<destination>{6035f679-a3a2-4b70-a985-7d1774c2a7fc}</destination>
@@ -105,14 +116,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{79219dad-15c3-4da9-91df-c65cfbf9bc53}" />
 	<object class="SingleSound" id="{1b3e5d6b-7e0e-41d9-97ad-ff5ef0fe8b0f}">
-		<property name="volume">
-			<value>-20</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{790eb0f8-091c-44af-b645-da701de810e9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bc28f46d-ee6c-4ce4-ac38-64d11a91f677}" />
+	<object class="AutomationCurve" id="{72c0ec2e-04d3-4561-a595-df6ce02755ac}">
+		<relationship name="parameter">
+			<destination>{21db179d-c32f-476e-9c0a-8af0ec56589d}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{884eae07-4762-41bc-bcde-b83e37d6d5d8}</destination>
+			<destination>{d9cb93c5-3442-42c5-a9b4-a52f9c724f7f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{6035f679-a3a2-4b70-a985-7d1774c2a7fc}" />
 	<object class="ProxyEffect" id="{1aeb54c3-405b-4066-9055-9d1c94a122d4}">
 		<property name="inputFormat">
@@ -121,5 +138,21 @@
 		<relationship name="preset">
 			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
 		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{884eae07-4762-41bc-bcde-b83e37d6d5d8}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-10</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d9cb93c5-3442-42c5-a9b4-a52f9c724f7f}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-20</value>
+		</property>
 	</object>
 </objects>

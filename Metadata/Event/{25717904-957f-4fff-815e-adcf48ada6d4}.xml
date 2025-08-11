@@ -91,6 +91,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7874c10d-9cf9-451a-8dda-baf2101490fd}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5fd0cee8-6b2f-43a9-91c6-08e4706f2ed6}</destination>
 		</relationship>
@@ -111,9 +114,6 @@
 		<property name="length">
 			<value>1.4532019704433499</value>
 		</property>
-		<property name="volume">
-			<value>-12</value>
-		</property>
 		<property name="pitch">
 			<value>-1</value>
 		</property>
@@ -124,9 +124,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ba9a3ec4-86bc-454b-9d8d-e49914cbce77}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -147,9 +144,6 @@
 		<property name="length">
 			<value>1.4532019704433499</value>
 		</property>
-		<property name="volume">
-			<value>-12</value>
-		</property>
 		<relationship name="sounds">
 			<destination>{ff00beaf-b37a-45f7-bb42-e50eca05e358}</destination>
 			<destination>{d8b6f847-7e35-44a6-a486-eb4e56aa7e41}</destination>
@@ -157,9 +151,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{54ba8c31-e44f-4490-b6df-be8788f8bf62}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -177,6 +168,9 @@
 		<property name="position">
 			<value>0</value>
 		</property>
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{013bf216-b941-418e-b37d-88f785a2dfbf}</destination>
 		</relationship>
@@ -188,6 +182,7 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{b3aabe61-9fd9-4a8d-93bc-12a35abf5772}</destination>
+			<destination>{db88672c-4ec8-4776-b94e-77d928d1502a}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionMarker" id="{35130181-df70-4e59-8352-37edc80adfc5}">
@@ -296,6 +291,17 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{db88672c-4ec8-4776-b94e-77d928d1502a}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{e530b34b-ab8f-4dfb-8234-5666c2e1a284}">
