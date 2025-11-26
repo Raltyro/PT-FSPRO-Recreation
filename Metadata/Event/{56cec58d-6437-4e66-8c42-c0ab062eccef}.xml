@@ -12,7 +12,6 @@
 		</relationship>
 		<relationship name="tags">
 			<destination>{efb10652-a274-4514-bb59-37d938e37666}</destination>
-			<destination>{095bde4b-8e8e-468a-a3d2-acb9c75c8d0e}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{5497e53b-4559-4f98-82e1-6db44dd13f59}</destination>
@@ -62,7 +61,7 @@
 			<destination>{f8ceec86-de31-4555-acce-9bef5492fd59}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{475894c5-afdb-4b8d-a3a2-92168b012f0b}</destination>
+			<destination>{130cb175-733c-4e52-b88c-e9a36a056741}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{12740c43-3563-4e70-8df2-71a46f553f38}" />
@@ -189,6 +188,7 @@
 	<object class="MixerBusEffectChain" id="{c7912503-2e73-4fb7-9a17-f6592c468654}">
 		<relationship name="effects">
 			<destination>{90338586-20f2-4fb1-b12f-368547a9699d}</destination>
+			<destination>{d24a748a-c380-4de7-8863-c27704f94560}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{130f7d1e-fa2b-4a0c-b057-8f9461a55839}" />
@@ -211,5 +211,83 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{90338586-20f2-4fb1-b12f-368547a9699d}" />
+	<object class="ThreeEQEffect" id="{d24a748a-c380-4de7-8863-c27704f94560}">
+		<property name="lowCrossover">
+			<value>1000</value>
+		</property>
+		<property name="highCrossover">
+			<value>22000</value>
+		</property>
+		<relationship name="automators">
+			<destination>{5426a6ca-864f-490e-87ec-13ccc2544512}</destination>
+			<destination>{1f91e4ce-b79f-4ab0-aa8a-ee38391f26ea}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{9359a622-bcc2-4ae8-85e4-0fccf3a7daad}" />
+	<object class="Automator" id="{5426a6ca-864f-490e-87ec-13ccc2544512}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>highGain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{0c48ec52-811f-4431-ad49-f5c085d396b0}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{1f91e4ce-b79f-4ab0-aa8a-ee38391f26ea}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>midGain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{5fda0620-d80c-4b6e-ab45-8314e58c42cd}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{0c48ec52-811f-4431-ad49-f5c085d396b0}">
+		<relationship name="parameter">
+			<destination>{2c8e0c9a-8127-421e-8500-df8251692467}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{79324459-b49a-4cad-b617-61e053d53330}</destination>
+			<destination>{92f77d0b-bbf1-4611-a26a-f77eefad167e}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{5fda0620-d80c-4b6e-ab45-8314e58c42cd}">
+		<relationship name="parameter">
+			<destination>{2c8e0c9a-8127-421e-8500-df8251692467}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{7beb4b19-a726-423a-9bec-6b01b49dd9cf}</destination>
+			<destination>{17f2d573-9384-4746-b5ae-a9c56a74481b}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{79324459-b49a-4cad-b617-61e053d53330}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{92f77d0b-bbf1-4611-a26a-f77eefad167e}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-36</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7beb4b19-a726-423a-9bec-6b01b49dd9cf}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{17f2d573-9384-4746-b5ae-a9c56a74481b}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 </objects>
