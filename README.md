@@ -42,6 +42,7 @@ any Pull Requests that doesn't do this will be ignored/held for reviews until it
 * [SlawekNowy](https://github.com/SlawekNowy) - Contributions on helping to make linking this fspro with PT original banks possible (Exporting the GUIDs)
 * [MeliaDev](https://github.com/MeliaDev) ([GameBanana](https://gamebanana.com/members/2657982), [Twitter](https://twitter.com/darkdagirl)) - Contributions help on adding events
 * [thecubitosishere](https://github.com/thecubitoishere)  ([GameBanana](https://gamebanana.com/members/2513917), [Twitter](https://twitter.com/TheCubitoIsHere))- Contributions help on adding events
-* [Laventory](https://github.com/Laventory) ([GameBanana](https://gamebanana.com/members/1785335), [Bluesky](https://bsky.app/profile/laventory.bsky.social)) - Maintainer, Collaborator 
+* [Laventory](https://github.com/Laventory) ([GameBanana](https://gamebanana.com/members/1785335), [Bluesky](https://bsky.app/profile/laventory.bsky.social)) - Maintainer, Collaborator
+
 Without these Contributors, this project wouldn't be possible without them!
 Thank you everyone for those who contributes this project!
