@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/Raltyro/Pizza-Tower-fspro-Recreation?logo=github)](LICENSE.txt)
 [![FMOD Studio Version](https://badgen.net/badge/FMOD%20Studio%20Version/2.02.XX/orange)](https://www.fmod.com)
 
-[![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://GameBanana.com/tools/13432)
+[![PT FSPRO Repository Image](.github/readme/banner-fspro.png)](https://gamebanana.com/tools/13432)
 
 This project/tool aims to be atleast somewhat 1:1 recreation and to make improvements/fixes to Pizza Tower sounds,
 while making them easier to mod in the sounds by just opening this with FMOD Studio instead of using other unofficial tools,
@@ -36,12 +36,12 @@ When modifying the project, please to make sure to use the event templates that'
 any Pull Requests that doesn't do this will be ignored/held for reviews until it get resolved.
 
 ## Credits
-* [Raltyro](https://github.com/Raltyro) ([GameBanana](https://GameBanana.com/members/1777465), [Twitter](https://twitter.com/Raltyro)) - Maintainer
-* [AwfulNasty](https://github.com/AwfulNasty) ([GameBanana](https://https://GameBanana.com/members/2539314)) - MAJOR Contributions on adding bunch of sfx events, linking this fspro with PT original banks, and etc
+* [Raltyro](https://github.com/Raltyro) ([GameBanana](https://gamebanana.com/members/1777465), [Twitter](https://twitter.com/Raltyro)) - Maintainer
+* [AwfulNasty](https://github.com/AwfulNasty) ([GameBanana](https://https://gamebanana.com/members/2539314)) - MAJOR Contributions on adding bunch of sfx events, linking this fspro with PT original banks, and etc
 * [theCarso](https://github.com/theCarso) - Contributions on helping to make linking this fspro with PT original banks possible (Making an automated script on applying the GUIDs)
 * [SlawekNowy](https://github.com/SlawekNowy) - Contributions on helping to make linking this fspro with PT original banks possible (Exporting the GUIDs)
-* [MeliaDev](https://github.com/MeliaDev) ([GameBanana](https://GameBanana.com/members/2657982), [Twitter](https://twitter.com/darkdagirl)) - Contributions help on adding events
-* [thecubitosishere](https://github.com/thecubitoishere)  ([GameBanana](https://GameBanana.com/members/2513917), [Twitter](https://twitter.com/TheCubitoIsHere))- Contributions help on adding events
+* [MeliaDev](https://github.com/MeliaDev) ([GameBanana](https://gamebanana.com/members/2657982), [Twitter](https://twitter.com/darkdagirl)) - Contributions help on adding events
+* [thecubitosishere](https://github.com/thecubitoishere)  ([GameBanana](https://gamebanana.com/members/2513917), [Twitter](https://twitter.com/TheCubitoIsHere))- Contributions help on adding events
 * [Laventory](https://github.com/Laventory) ([GameBanana](https://gamebanana.com/members/1785335), [Bluesky](https://bsky.app/profile/laventory.bsky.social)) - Maintainer, Collaborator 
 Without these Contributors, this project wouldn't be possible without them!
 Thank you everyone for those who contributes this project!
