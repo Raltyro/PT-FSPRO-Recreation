@@ -96,11 +96,14 @@
 			<value>2.0512916666666667</value>
 		</property>
 		<property name="length">
-			<value>8.2051041666666666</value>
+			<value>8.2200000000000006</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{cbd8fdb7-1c77-4fa9-9a1d-26236c9d0bd4}</destination>
 			<destination>{5838f780-a0d7-4e8c-b6b2-519c9c8330b8}</destination>
+		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{234203c2-6ddc-46a8-8e59-ca97d8110d86}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{11736a53-06e9-4801-974b-6e8c2939cf2e}</destination>
@@ -111,7 +114,7 @@
 			<value>2.0512916666666667</value>
 		</property>
 		<property name="length">
-			<value>8.2051041666666666</value>
+			<value>8.222666666666667</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{225fd2d0-9855-4fab-943e-35be0e9b0979}</destination>
@@ -123,8 +126,11 @@
 	</object>
 	<object class="SingleSound" id="{ee35d85b-fe74-4c4f-bf1c-6f869f869c00}">
 		<property name="length">
-			<value>2.0512916666666667</value>
+			<value>2.0533333333333332</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{d8b8cdcb-3410-4415-a02f-e57f6b7fe229}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{7de131a7-b0da-4bed-99a8-7597ba6ac3fd}</destination>
 		</relationship>
@@ -221,6 +227,17 @@
 			<destination>{ca273bb3-f61a-4709-98d1-30aa406baa1b}</destination>
 		</relationship>
 	</object>
+	<object class="FadeCurve" id="{234203c2-6ddc-46a8-8e59-ca97d8110d86}">
+		<relationship name="startPoint">
+			<destination>{64e8e3ee-1533-4732-b71e-8051fd08729e}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{275efe19-1896-47e0-844b-86fdfc87b5e2}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{ee35d85b-fe74-4c4f-bf1c-6f869f869c00}</destination>
+		</relationship>
+	</object>
 	<object class="ParameterCondition" id="{225fd2d0-9855-4fab-943e-35be0e9b0979}">
 		<property name="minimum">
 			<value>0</value>
@@ -247,6 +264,17 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{ca273bb3-f61a-4709-98d1-30aa406baa1b}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{d8b8cdcb-3410-4415-a02f-e57f6b7fe229}">
+		<relationship name="startPoint">
+			<destination>{d34ca76d-6418-4591-ae7e-3efe68d7987e}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{e5759b78-d3cf-4145-b4c9-24df1e2777b1}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{58ab5598-252c-4076-8d59-fc5c23f1fc1f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{cacf9241-31dc-4f25-b8b3-913d7d91f9db}" />
@@ -280,5 +308,43 @@
 		<relationship name="preset">
 			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
 		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{64e8e3ee-1533-4732-b71e-8051fd08729e}">
+		<property name="position">
+			<value>2.0512916666666667</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.25471887</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{275efe19-1896-47e0-844b-86fdfc87b5e2}">
+		<property name="position">
+			<value>2.0533333333333332</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d34ca76d-6418-4591-ae7e-3efe68d7987e}">
+		<property name="position">
+			<value>2.0512916666666667</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e5759b78-d3cf-4145-b4c9-24df1e2777b1}">
+		<property name="position">
+			<value>2.0533333333333332</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
 	</object>
 </objects>

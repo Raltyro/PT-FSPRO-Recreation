@@ -81,13 +81,16 @@
 	</object>
 	<object class="SingleSound" id="{d99b15bb-5e04-43b2-9a06-1fc33458c66a}">
 		<property name="length">
-			<value>0.62000000000000011</value>
+			<value>0.6206279116872595</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.0234375</value>
+			<value>0.023461236580919587</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{f244c591-6eb1-4111-b2ec-b6a162f9599a}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{9da5dcfd-e52e-425b-a150-75966a035b04}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{eb70e018-67ca-4d7a-95d5-39948ac57784}</destination>
@@ -98,11 +101,14 @@
 			<value>0.62000000000000011</value>
 		</property>
 		<property name="length">
-			<value>1.1499999999999999</value>
+			<value>1.1511646749037876</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>1.3034374999999998</value>
+			<value>1.3047575703868743</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{9c7dc0a1-60f0-40d0-bac4-ac40d40db7c7}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{c4305cd4-b1a2-41d3-944c-4543a686a6fc}</destination>
 		</relationship>
@@ -146,6 +152,28 @@
 		</relationship>
 		<relationship name="endPoint">
 			<destination>{e020c1a3-52c2-43f4-8a4c-9badce759770}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{9da5dcfd-e52e-425b-a150-75966a035b04}">
+		<relationship name="startPoint">
+			<destination>{cce0d06c-b404-4c3d-af75-4e133118f47d}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{0e472784-fa75-4d95-96cb-a034761c5281}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{53a0237d-c80c-43e9-a618-bf30a592aa6a}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{9c7dc0a1-60f0-40d0-bac4-ac40d40db7c7}">
+		<relationship name="startPoint">
+			<destination>{6269ffcd-5f63-4e26-a52c-22bf46402a03}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{7339a5a6-b730-4731-b694-55142b19d03f}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{d99b15bb-5e04-43b2-9a06-1fc33458c66a}</destination>
 		</relationship>
 	</object>
 	<object class="FadeCurve" id="{c4305cd4-b1a2-41d3-944c-4543a686a6fc}">
@@ -192,9 +220,47 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{cce0d06c-b404-4c3d-af75-4e133118f47d}">
+		<property name="position">
+			<value>0.62000000000000011</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{0e472784-fa75-4d95-96cb-a034761c5281}">
+		<property name="position">
+			<value>0.6206279116872595</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6269ffcd-5f63-4e26-a52c-22bf46402a03}">
+		<property name="position">
+			<value>0.62000000000000011</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.25471887</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7339a5a6-b730-4731-b694-55142b19d03f}">
+		<property name="position">
+			<value>0.6206279116872595</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{dcb0fdb9-eb99-47a0-939f-63e9011c3eb1}">
 		<property name="position">
-			<value>0.90000000000000002</value>
+			<value>0.90116467490378771</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -205,7 +271,7 @@
 	</object>
 	<object class="AutomationPoint" id="{48691a65-807f-4fc1-87b0-cc40a87bbd13}">
 		<property name="position">
-			<value>1.77</value>
+			<value>1.7711646749037877</value>
 		</property>
 		<property name="value">
 			<value>0</value>
