@@ -5,7 +5,7 @@
 			<value>noisette</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1cd1dfac-c589-458d-a652-6e4abf8bfc08}</destination>
@@ -64,7 +64,14 @@
 			<destination>{130cb175-733c-4e52-b88c-e9a36a056741}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{12740c43-3563-4e70-8df2-71a46f553f38}" />
+	<object class="EventAutomatableProperties" id="{12740c43-3563-4e70-8df2-71a46f553f38}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>960</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{edfc8a37-46cb-4cf3-97db-d6aa57eff593}" />
 	<object class="MarkerTrack" id="{eb1c68ee-6da5-4c8e-8873-f08f02264f62}" />
 	<object class="GroupTrack" id="{14f16c7b-703b-47a1-b76e-e030b1316d05}">
@@ -189,6 +196,7 @@
 		<relationship name="effects">
 			<destination>{90338586-20f2-4fb1-b12f-368547a9699d}</destination>
 			<destination>{28a64539-9ed0-4195-b67e-56493c9eba13}</destination>
+			<destination>{1c669be9-f65c-4b02-876f-f3bf3f00dca4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{130f7d1e-fa2b-4a0c-b057-8f9461a55839}" />
@@ -218,6 +226,23 @@
 		<relationship name="preset">
 			<destination>{408cd91d-a71b-450d-8b71-60e017d4e684}</destination>
 		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{1c669be9-f65c-4b02-876f-f3bf3f00dca4}">
+		<property name="minimumDistance">
+			<value>6.80000019</value>
+		</property>
+		<property name="maximumDistance">
+			<value>1600</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>2000</value>
+		</property>
+		<property name="minimumExtent">
+			<value>10</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{9359a622-bcc2-4ae8-85e4-0fccf3a7daad}" />
 </objects>
